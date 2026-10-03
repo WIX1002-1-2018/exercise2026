@@ -34,7 +34,7 @@ This is a **Java course exercise repository** (WIX1002-2026) containing progress
 ### Compiling & Running
 - **Build**: `ant clean build` (NetBeans Ant)
 - **Run Single Class**: `java -cp out W##.W##E##`
-- **Dev Container**: `.devcontainer/devcontainer.json` gives a ready-to-use Java 17 environment in VS Code
+- **Dev Container**: `.devcontainer/devcontainer.json` gives a ready-to-use Java 25 environment (JDK 25, the course standard) in VS Code
 
 ## Anti-Patterns to Avoid
 
