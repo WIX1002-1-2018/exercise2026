@@ -20,6 +20,42 @@ The `src/W01` folder contains introductory Java examples covering basic output a
 - [`W01E08.java`](Exercise2026/src/W01/W01E08.java) — Creating formatted output with escape sequences (student information report).
 - [`W01T01.java`](Exercise2026/src/W01/W01T01.java) — A minimal "Hello World" program (prints "Hello World").
 
+Summary of Week 02 (W02)
+-------------------------
+The `src/W02` folder contains the Java fundamentals examples (variables, types, operators, casting, Strings, Scanner input and printf output), in the same order as the Week 2 lecture and the Programming Essentials videos #12 to #14. Lines marked "Try it" are commented out on purpose: remove the `//` to see the compiler or run-time message, then put it back.
+
+- [`W02E01.java`](Exercise2026/src/W02/W02E01.java): Variables: declare, assign and initialise one variable of each common type.
+- [`W02E02.java`](Exercise2026/src/W02/W02E02.java): Assignment copies a value: changing x later does not change y.
+- [`W02E03.java`](Exercise2026/src/W02/W02E03.java): Two compile errors to try: a wrong type, and a variable used before it has a value.
+- [`W02E04.java`](Exercise2026/src/W02/W02E04.java): The ranges of the whole-number primitive types.
+- [`W02E05.java`](Exercise2026/src/W02/W02E05.java): Java is case sensitive: total and Total are two different variables.
+- [`W02E06.java`](Exercise2026/src/W02/W02E06.java): Constants with final: the value cannot be reassigned after it is set.
+- [`W02E07.java`](Exercise2026/src/W02/W02E07.java): Arithmetic operators, integer division and the remainder operator %.
+- [`W02E08.java`](Exercise2026/src/W02/W02E08.java): Operator precedence and parentheses.
+- [`W02E09.java`](Exercise2026/src/W02/W02E09.java): Postfix x++ and prefix ++x.
+- [`W02E10.java`](Exercise2026/src/W02/W02E10.java): Compound assignment (+=) converts the result back to the variable's type.
+- [`W02E11.java`](Exercise2026/src/W02/W02E11.java): Casting: widening is automatic, narrowing needs (type) and cuts the decimals.
+- [`W02E12.java`](Exercise2026/src/W02/W02E12.java): Convert before you divide; doubles store many decimals approximately.
+- [`W02E13.java`](Exercise2026/src/W02/W02E13.java): Integer overflow: past the largest int, the value wraps around.
+- [`W02E14.java`](Exercise2026/src/W02/W02E14.java): Useful Math methods (no import needed).
+- [`W02E15.java`](Exercise2026/src/W02/W02E15.java): Strings: joining with + (left to right) and three String methods.
+- [`W02E16.java`](Exercise2026/src/W02/W02E16.java): Scanner in four steps: import, create, prompt, read.
+- [`W02E17.java`](Exercise2026/src/W02/W02E17.java): next() reads one word (token); nextLine() reads the rest of the line.
+- [`W02E18.java`](Exercise2026/src/W02/W02E18.java): The nextLine trap: run it with 19 and a name. Why is the name empty? (Fixed in W02E19.)
+- [`W02E19.java`](Exercise2026/src/W02/W02E19.java): The nextLine trap, fixed: discard the rest of the line after nextInt().
+- [`W02E20.java`](Exercise2026/src/W02/W02E20.java): print, println and printf with the common format codes.
+- [`W02E21.java`](Exercise2026/src/W02/W02E21.java): Escape characters: \n, \t, \" and \\.
+- [`W02E22.java`](Exercise2026/src/W02/W02E22.java): Comment styles: //, /* */, /** */ (Javadoc) and /// (Markdown, JDK 23).
+- [`W02E23.java`](Exercise2026/src/W02/W02E23.java): Random numbers: roll a die (1 to 6) and pick a number from 0 to 99.
+- [`W02E24.java`](Exercise2026/src/W02/W02E24.java): Modern Java: var (Java 10) and underscores in numbers (Java 7).
+- [`W02E25.java`](Exercise2026/src/W02/W02E25.java): Modern Java: a text block (Java 15) and newer String methods (Java 11 and 15).
+- [`W02E26.java`](Exercise2026/src/W02/W02E26.java): JDK 25: IO.readln asks and reads a whole line (no Scanner, no nextLine trap).
+- [`W02E27.java`](Exercise2026/src/W02/W02E27.java): Worked example: a BMI calculator from IPO to Java.
+- [`W02E28.java`](Exercise2026/src/W02/W02E28.java): Find the bug: the average of 70, 85 and 90 should be about 81.67.
+- [`W02E29.java`](Exercise2026/src/W02/W02E29.java): Improve this program: choose better names, better types and a constant.
+- [`W02E30.java`](Exercise2026/src/W02/W02E30.java): Security: never hard-code a password like this. It is readable in the .class file.
+- [`W02E31.java`](Exercise2026/src/W02/W02E31.java): Never trust input: try abc (crash) and 150 (out of range) as the mark.
+
 How to run
 ----------
 
