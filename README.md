@@ -56,6 +56,18 @@ The `src/W02` folder contains the Java fundamentals examples (variables, types, 
 - [`W02E30.java`](Exercise2026/src/W02/W02E30.java): Security: never hard-code a password like this. It is readable in the .class file.
 - [`W02E31.java`](Exercise2026/src/W02/W02E31.java): Never trust input: try abc (crash) and 150 (out of range) as the mark.
 
+Week 02 videos (Programming Essentials)
+---------------------------------------
+Pull first (NetBeans: Team > Remote > Pull, or `git pull`), then open the file shown in the corner of the video. Playlist: https://www.youtube.com/playlist?list=PLHpDJHOFvRCU
+
+| Video | Files used |
+|---|---|
+| #12 Variables, Types and Constants | W02E01, W02E02, W02E03, W02E05, W02E06, W02E24, W02E29 (AI agent), W02E30 (security) |
+| #13 Operators and Type Casting | W02E07 to W02E14, W02E28 (AI agent) |
+| #14 Input and Output | W02E15 to W02E21, W02E26, W02E27, W02E31 (security); W02E18 (AI agent) |
+
+Self-study (in the lecture slides, not in a video): W02E04 (type ranges), W02E22 (comment styles), W02E23 (Random), W02E25 (text block and newer String methods).
+
 How to run
 ----------
 
