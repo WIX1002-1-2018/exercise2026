@@ -73,12 +73,12 @@ Self-study (in the lecture slides, not in a video): W02E04 (type ranges), W02E22
 
 Summary of Week 03 (W03)
 -------------------------
-The `src/W03` folder contains the selection examples (Chapter 3, Flow of Control: Selection): relational and logical operators, short-circuit evaluation, if, if-else, else-if chains, nested if, comparing Strings and decimals, switch (classic and arrow), the conditional operator, input checks and a worked example, in the same order as the Week 3 lecture. Lines marked "Try it" are commented out on purpose: remove the `//` to see the compiler or run-time message, then put it back. Files marked INTENTIONALLY FAULTY or MISLEADING are there to be found and fixed, not copied.
+The `src/W03` folder contains the selection examples (Chapter 3, Flow of Control: Selection): relational and logical operators, short-circuit evaluation, if, if-else, else-if chains, nested if, comparing Strings and decimals, switch (classic and arrow), the conditional operator, input checks and a worked example, in the same order as the Week 3 lecture. W03E23 to W03E27 are the answers to each video's Try it task: try it yourself first. Lines marked "Try it" are commented out on purpose: remove the `//` to see the compiler or run-time message, then put it back. Files marked INTENTIONALLY FAULTY or MISLEADING are there to be found and fixed, not copied.
 
 - [`W03E01.java`](Exercise2026/src/W03/W03E01.java): Relational operators compare two values and give a boolean: true or false.
 - [`W03E02.java`](Exercise2026/src/W03/W03E02.java): Logical operators join conditions: && (and), || (or), ! (not).
 - [`W03E03.java`](Exercise2026/src/W03/W03E03.java): && and || are evaluated left to right and stop early (short-circuit) once the answer is known.
-- [`W03E04.java`](Exercise2026/src/W03/W03E04.java): && is done before ||. Use parentheses to say what you mean.
+- [`W03E04.java`](Exercise2026/src/W03/W03E04.java): && has higher precedence than ||: it groups first. Java still evaluates left to right.
 - [`W03E05.java`](Exercise2026/src/W03/W03E05.java): if: the body runs only when the condition is true. Braces group the statements of the body.
 - [`W03E06.java`](Exercise2026/src/W03/W03E06.java): if-else: choose one of two actions.
 - [`W03E07.java`](Exercise2026/src/W03/W03E07.java): Multi-way if-else: else if adds more choices; the last else catches everything left.
@@ -92,23 +92,28 @@ The `src/W03` folder contains the selection examples (Chapter 3, Flow of Control
 - [`W03E15.java`](Exercise2026/src/W03/W03E15.java): Modern switch (Java 14+): case ... -> needs no break.
 - [`W03E16.java`](Exercise2026/src/W03/W03E16.java): The conditional operator ?: picks one of two values: condition ? valueIfTrue : valueIfFalse
 - [`W03E17.java`](Exercise2026/src/W03/W03E17.java): A random number in a range, then a decision. nextInt(1, 101) gives 1 to 100 (Java 17+).
-- [`W03E18.java`](Exercise2026/src/W03/W03E18.java): INTENTIONALLY FAULTY: one logic bug that compiles, and Try it lines that do not compile.
+- [`W03E18.java`](Exercise2026/src/W03/W03E18.java): INTENTIONALLY FAULTY: one logic bug that compiles, and two Try it lines that do not compile.
 - [`W03E19.java`](Exercise2026/src/W03/W03E19.java): Check input before using it. hasNextInt() looks at the next token only: is it a number that fits in an int?
 - [`W03E20.java`](Exercise2026/src/W03/W03E20.java): Worked example: parcel postage by weight. Plan (IPO) first, then code, then test every boundary.
 - [`W03E21.java`](Exercise2026/src/W03/W03E21.java): INTENTIONALLY FAULTY (for the AI agent check): a mark of 80 should be grade A, but this prints B. Predict first, then test every boundary: 39 and 40, 49 and 50, 59 and 60, 79 and 80.
 - [`W03E22.java`](Exercise2026/src/W03/W03E22.java): W03E21 fixed: use >= so that each boundary mark (80, 60, 50, 40) gets the higher grade.
+- [`W03E23.java`](Exercise2026/src/W03/W03E23.java): Try it answer for video #15 (try it yourself first): entry needs attendance of at least 80 AND the fee paid.
+- [`W03E24.java`](Exercise2026/src/W03/W03E24.java): Try it answer for video #16 (try it yourself first): a battery message from a level of 0 to 100.
+- [`W03E25.java`](Exercise2026/src/W03/W03E25.java): Try it answer for video #17 (try it yourself first): check a voucher code, ignoring upper and lower case.
+- [`W03E26.java`](Exercise2026/src/W03/W03E26.java): Try it answer for video #18 (try it yourself first): a traffic light with a switch expression and a default.
+- [`W03E27.java`](Exercise2026/src/W03/W03E27.java): Try it answer for video #19 (try it yourself first): bus fare by distance, with safe input.
 
 Week 03 videos (Programming Essentials)
 ---------------------------------------
 Pull first (NetBeans: Team > Remote > Pull, or `git pull`), then open the file shown in the corner of the video. Playlist: https://www.youtube.com/playlist?list=PLHpDJHOFvRCU
 
-| Video | Files used |
-|---|---|
-| #15 Conditions: True or False | W03E01 to W03E04 |
-| #16 if, if-else and else-if | W03E05 to W03E09 |
-| #17 Comparing Text, Characters and Decimals | W03E10 to W03E13 |
-| #18 switch and the Conditional Operator | W03E14 to W03E16 |
-| #19 Selection Mistakes, Safe Input and an AI Check | W03E18, W03E19, W03E20, W03E21 (AI agent: the bug), W03E22 (the fix) |
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #15 Conditions: True or False | W03E01 to W03E04 | W03E23 |
+| #16 if, if-else and else-if | W03E05 to W03E09 | W03E24 |
+| #17 Comparing Text, Characters and Decimals | W03E10 to W03E13 | W03E25 |
+| #18 switch and the Conditional Operator | W03E14 to W03E16 | W03E26 |
+| #19 Selection Mistakes, Safe Input and an AI Check | W03E18, W03E19, W03E20, W03E21 (AI agent: the bug), W03E22 (the fix) | W03E27 |
 
 Self-study (in the lecture slides, not in a video): W03E17 (a random number in a range, then a decision).
 

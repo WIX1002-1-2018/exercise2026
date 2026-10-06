@@ -3,7 +3,8 @@ package W03;
 import java.util.Scanner;
 
 // Worked example: parcel postage by weight. Plan (IPO) first, then code, then test every boundary.
-// Input: weight in kg (a number). Process: find the weight band. Output: postage in RM, two decimal places.
+// Assumes the input is a number (W03E19 shows how to check it first).
+// Input: weight in kg. Process: find the weight band. Output: postage in RM, two decimal places.
 // Bands: up to 1 kg RM 8.00; up to 5 kg RM 12.50; up to 10 kg RM 18.00; over 10 kg not accepted.
 public class W03E20 {
     public static void main(String[] args) {

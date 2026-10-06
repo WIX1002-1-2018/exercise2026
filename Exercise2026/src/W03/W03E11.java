@@ -9,7 +9,8 @@ public class W03E11 {
         Scanner in = new Scanner(System.in);
         System.out.print("Type yes: ");
         String answer = in.nextLine();
-        // == compares references (is it the same object?). It can be true by chance, so never rely on it for text.
+        // == compares references: it is true only when both are the same object (for example, two identical
+        // literals share one object). So == can look right in one test and fail in another: use equals for text.
         System.out.println(answer == "yes");
         System.out.println(answer.equals("yes"));             // compares the characters
         System.out.println("YES".equalsIgnoreCase(answer));   // ignores upper and lower case
