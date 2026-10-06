@@ -8,7 +8,8 @@ This is a **Java course exercise repository** (WIX1002-2026) containing progress
 
 - **`Exercise2026/src/`** - Main source code organized by week
   - `W01/` - Basic output and escape sequences (`W01E01.java` - `W01E08.java`, `W01T01.java`)
-  - `W02/` - Java fundamentals: variables, types, operators, casting, Strings, Scanner and printf (`W02E01.java` - `W02E32.java`)
+  - `W02/` - Java fundamentals: variables, types, operators, casting, Strings, Scanner and printf (`W02E01.java` - `W02E34.java`)
+  - `W03/` - Selection: relational and logical operators, if, if-else, else-if, nested if, comparing Strings and decimals, switch (classic and arrow), the conditional operator, input checks (`W03E01.java` - `W03E22.java`)
   - more weeks are added through the semester, following the same pattern as `exercise2025`
 
 - **Build System**: NetBeans Ant-based (`build.xml`, `nbproject/`)

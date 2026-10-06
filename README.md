@@ -71,6 +71,47 @@ Pull first (NetBeans: Team > Remote > Pull, or `git pull`), then open the file s
 
 Self-study (in the lecture slides, not in a video): W02E04 (type ranges), W02E22 (comment styles), W02E23 (Random), W02E25 (text block and newer String methods), W02E26 (IO.readln inside psvm, JDK 25).
 
+Summary of Week 03 (W03)
+-------------------------
+The `src/W03` folder contains the selection examples (Chapter 3, Flow of Control: Selection): relational and logical operators, short-circuit evaluation, if, if-else, else-if chains, nested if, comparing Strings and decimals, switch (classic and arrow), the conditional operator, input checks and a worked example, in the same order as the Week 3 lecture. Lines marked "Try it" are commented out on purpose: remove the `//` to see the compiler or run-time message, then put it back. Files marked INTENTIONALLY FAULTY or MISLEADING are there to be found and fixed, not copied.
+
+- [`W03E01.java`](Exercise2026/src/W03/W03E01.java): Relational operators compare two values and give a boolean: true or false.
+- [`W03E02.java`](Exercise2026/src/W03/W03E02.java): Logical operators join conditions: && (and), || (or), ! (not).
+- [`W03E03.java`](Exercise2026/src/W03/W03E03.java): && and || are evaluated left to right and stop early (short-circuit) once the answer is known.
+- [`W03E04.java`](Exercise2026/src/W03/W03E04.java): && is done before ||. Use parentheses to say what you mean.
+- [`W03E05.java`](Exercise2026/src/W03/W03E05.java): if: the body runs only when the condition is true. Braces group the statements of the body.
+- [`W03E06.java`](Exercise2026/src/W03/W03E06.java): if-else: choose one of two actions.
+- [`W03E07.java`](Exercise2026/src/W03/W03E07.java): Multi-way if-else: else if adds more choices; the last else catches everything left.
+- [`W03E08.java`](Exercise2026/src/W03/W03E08.java): Separate if statements are all tested; an else-if chain stops at the first true test.
+- [`W03E09.java`](Exercise2026/src/W03/W03E09.java): Grade from a mark: the first true condition wins, so test from the highest grade down.
+- [`W03E10.java`](Exercise2026/src/W03/W03E10.java): INTENTIONALLY MISLEADING: an else belongs to the nearest if that has no else, whatever the indentation says. Braces make the meaning clear.
+- [`W03E11.java`](Exercise2026/src/W03/W03E11.java): Compare String contents with equals, not ==.
+- [`W03E12.java`](Exercise2026/src/W03/W03E12.java): Read one character with charAt(0), then decide with if-else.
+- [`W03E13.java`](Exercise2026/src/W03/W03E13.java): Computed decimals can carry rounding error, so 0.1 + 0.2 is not exactly 0.3.
+- [`W03E14.java`](Exercise2026/src/W03/W03E14.java): switch picks a case by value; break stops it running into the next case.
+- [`W03E15.java`](Exercise2026/src/W03/W03E15.java): Modern switch (Java 14+): case ... -> needs no break.
+- [`W03E16.java`](Exercise2026/src/W03/W03E16.java): The conditional operator ?: picks one of two values: condition ? valueIfTrue : valueIfFalse
+- [`W03E17.java`](Exercise2026/src/W03/W03E17.java): A random number in a range, then a decision. nextInt(1, 101) gives 1 to 100 (Java 17+).
+- [`W03E18.java`](Exercise2026/src/W03/W03E18.java): INTENTIONALLY FAULTY: one logic bug that compiles, and Try it lines that do not compile.
+- [`W03E19.java`](Exercise2026/src/W03/W03E19.java): Check input before using it. hasNextInt() looks at the next token only: is it a number that fits in an int?
+- [`W03E20.java`](Exercise2026/src/W03/W03E20.java): Worked example: parcel postage by weight. Plan (IPO) first, then code, then test every boundary.
+- [`W03E21.java`](Exercise2026/src/W03/W03E21.java): INTENTIONALLY FAULTY (for the AI agent check): a mark of 80 should be grade A, but this prints B. Predict first, then test every boundary: 39 and 40, 49 and 50, 59 and 60, 79 and 80.
+- [`W03E22.java`](Exercise2026/src/W03/W03E22.java): W03E21 fixed: use >= so that each boundary mark (80, 60, 50, 40) gets the higher grade.
+
+Week 03 videos (Programming Essentials)
+---------------------------------------
+Pull first (NetBeans: Team > Remote > Pull, or `git pull`), then open the file shown in the corner of the video. Playlist: https://www.youtube.com/playlist?list=PLHpDJHOFvRCU
+
+| Video | Files used |
+|---|---|
+| #15 Conditions: True or False | W03E01 to W03E04 |
+| #16 if, if-else and else-if | W03E05 to W03E09 |
+| #17 Comparing Text, Characters and Decimals | W03E10 to W03E13 |
+| #18 switch and the Conditional Operator | W03E14 to W03E16 |
+| #19 Selection Mistakes, Safe Input and an AI Check | W03E18, W03E19, W03E20, W03E21 (AI agent: the bug), W03E22 (the fix) |
+
+Self-study (in the lecture slides, not in a video): W03E17 (a random number in a range, then a decision).
+
 How to run
 ----------
 
