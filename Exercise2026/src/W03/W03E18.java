@@ -6,7 +6,8 @@ public class W03E18 {
         int mark = 30;
 
         // Logic bug: a semicolon after if (...) ends the if, so the next line always runs.
-        // It compiles; NetBeans (and javac -Xlint:empty) warn: empty statement after if.
+        // It compiles. javac -Xlint:empty warns "empty statement after if"; NetBeans flags it only if its
+        // "Empty statement after if/else" hint is turned on (Tools > Options > Editor > Hints).
         if (mark >= 50);
             System.out.println("Passed?");
 
