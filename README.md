@@ -109,11 +109,11 @@ Pull first (NetBeans: Team > Remote > Pull, or `git pull`), then open the file s
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #15 Conditions: True or False | W03E01 to W03E04 | W03E23 |
-| #16 if, if-else and else-if | W03E05 to W03E09 | W03E24 |
-| #17 Comparing Text, Characters and Decimals | W03E10 to W03E13 | W03E25 |
-| #18 switch and the Conditional Operator | W03E14 to W03E16 | W03E26 |
-| #19 Selection Mistakes, Safe Input and an AI Check | W03E18, W03E19, W03E20, W03E21 (AI agent: the bug), W03E22 (the fix) | W03E27 |
+| [#15 Conditions: True or False](https://youtu.be/SPZsnZsslsM) | W03E01 to W03E04 | W03E23 |
+| [#16 if, if-else and else-if](https://youtu.be/fhm8WwlMoU0) | W03E05 to W03E09 | W03E24 |
+| [#17 Comparing Text, Characters and Decimals](https://youtu.be/nDpflpj00fM) | W03E10 to W03E13 | W03E25 |
+| [#18 switch and the Conditional Operator](https://youtu.be/vdlpqWgrSEI) | W03E14 to W03E16 | W03E26 |
+| [#19 Selection Mistakes, Safe Input and an AI Check](https://youtu.be/N1fly6WvgPw) | W03E18, W03E19, W03E20, W03E21 (AI agent: the bug), W03E22 (the fix) | W03E27 |
 
 Self-study (in the lecture slides, not in a video): W03E17 (a random number in a range, then a decision).
 
