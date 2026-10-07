@@ -1,6 +1,6 @@
 package W03;
 
-// INTENTIONALLY FAULTY: one logic bug that compiles, and two Try it lines that do not compile.
+// INTENTIONALLY FAULTY: one logic bug that compiles, and one Try it line that does not compile.
 public class W03E18 {
     public static void main(String[] args) {
         int mark = 30;
@@ -11,9 +11,7 @@ public class W03E18 {
         if (mark >= 50);
             System.out.println("Passed?");
 
-        // Try it: remove the // on one line at a time and compile. Each note shows the first javac error.
-        // if mark >= 50 System.out.println("pass");
-        //   javac: '(' expected (the condition needs parentheses)
+        // Try it: remove the // below and compile. The note shows the javac error.
         // String note; if (mark >= 50) note = "pass"; System.out.println(note);
         //   javac: variable note might not have been initialized (give it a value on every path)
     }
