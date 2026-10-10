@@ -117,6 +117,43 @@ Pull first (NetBeans: Team > Remote > Pull, or `git pull`), then open the file s
 
 Self-study (in the lecture slides, not in a video): W03E17 (a random number in a range, then a decision).
 
+Summary of Week 04 (W04)
+-------------------------
+The `src/W04` folder contains the repetition examples (Chapter 4, Flow of Control: Repetition, part 1): while, tracing a loop, counter- and condition-controlled loops, sentinel and yes/no loops, do-while, input validation in a loop, for, loop-variable scope, choosing a loop, off-by-one errors, a worked example and an AI agent check, in the same order as the Week 4 lecture. Nested loops, break and continue come in Week 5. From Week 4 the videos use VS Code (see How to run, Option 1b); NetBeans still opens the same files. Files marked INTENTIONALLY FAULTY are there to be found and fixed, not copied. Only W04E08 checks its input fully; the other files skip input checks to keep each example short.
+
+- [`W04E01.java`](Exercise2026/src/W04/W04E01.java): while: repeat the body as long as the condition is true. Every loop has four parts: start, condition, body, update.
+- [`W04E02.java`](Exercise2026/src/W04/W04E02.java): Trace a loop: write down every variable after every pass. Here the loop prints its own trace table.
+- [`W04E03.java`](Exercise2026/src/W04/W04E03.java): Counter-controlled loop: the number of passes is known before the loop starts (here 10).
+- [`W04E04.java`](Exercise2026/src/W04/W04E04.java): Condition-controlled loop: the number of passes is not known in advance.
+- [`W04E05.java`](Exercise2026/src/W04/W04E05.java): Sentinel-controlled loop: a special value (0) marks the end of the input. Read before the loop, then again at the end of the body.
+- [`W04E06.java`](Exercise2026/src/W04/W04E06.java): User-confirmation loop: repeat while the user answers y. Try with: 30 y 100 n
+- [`W04E07.java`](Exercise2026/src/W04/W04E07.java): do-while: the body runs first, the condition is tested after it, so the body runs at least once.
+- [`W04E08.java`](Exercise2026/src/W04/W04E08.java): Input validation with do-while: keep asking until the input is valid (W03E19 asked only once).
+- [`W04E09.java`](Exercise2026/src/W04/W04E09.java): while tests first, do-while tests last. When the condition is false from the start,
+- [`W04E10.java`](Exercise2026/src/W04/W04E10.java): for puts the start, the condition and the update in one line. A variable declared in the header exists only inside the loop (Try it line).
+- [`W04E11.java`](Exercise2026/src/W04/W04E11.java): The update can be any step: up by 5, down by 2, or through the letters of the alphabet.
+- [`W04E12.java`](Exercise2026/src/W04/W04E12.java): Loop over the characters of a String: index 0 to length() - 1, so the condition is i < length().
+- [`W04E13.java`](Exercise2026/src/W04/W04E13.java): The same task with the three loops: print 3 6 9 12 15.
+- [`W04E14.java`](Exercise2026/src/W04/W04E14.java): Guessing game: loop until the guess is right, with a hint after every wrong guess. A fixed seed (1002) makes the secret the same on every run.
+- [`W04E15.java`](Exercise2026/src/W04/W04E15.java): Off-by-one: the loop runs one time too many or too few. Check the FIRST and the LAST pass.
+- [`W04E16.java`](Exercise2026/src/W04/W04E16.java): INTENTIONALLY FAULTY: two loop bugs that compile and run (a semicolon after the for header; a total reset inside the loop). Predict, run, then fix.
+- [`W04E17.java`](Exercise2026/src/W04/W04E17.java): Worked example: a bus card pays fares while the balance covers the fare. IPO, money in sen, tests planned first.
+- [`W04E18.java`](Exercise2026/src/W04/W04E18.java): INTENTIONALLY FAULTY (for the AI agent check): the agent's do-while adds the sentinel -1 to the total and counts it as a day.
+- [`W04E19.java`](Exercise2026/src/W04/W04E19.java): W04E18 fixed with the sentinel pattern: read before the loop, test, use, read again at the end.
+
+Week 04 videos (Programming Essentials)
+---------------------------------------
+Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the file shown in the corner of the video. Links are added when the videos are published.
+
+| Video | Files used |
+|---|---|
+| #20 while Loops and Tracing | W04E01 to W04E04 |
+| #21 Stopping a Loop: Sentinel, Yes/No, do-while, Safe Input | W04E05 to W04E09 |
+| #22 for Loops, Choosing a Loop, Guessing Game | W04E10 to W04E14 |
+| #23 Loop Mistakes and an AI Check | W04E15, W04E16, W04E18 (AI agent: the bug), W04E19 (the fix) |
+
+Self-study (in the lecture slides, not in a video): W04E17 (bus card worked example).
+
 How to run
 ----------
 
@@ -142,6 +179,12 @@ This repository includes a `.devcontainer` configuration for the best developmen
    - Navigate to any `.java` file in the `Exercise2026/src` folder
    - Right-click and select "Run Java" or click the "Run" button above the `main` method
    - Output will appear in the integrated terminal
+
+### Option 1b: VS Code on your own computer (used in the Week 4 videos)
+1. Install [JDK 25](https://adoptium.net/) and [Visual Studio Code](https://code.visualstudio.com/), then the **Extension Pack for Java** (Microsoft).
+2. File → Open Folder → the `exercise2026` folder (the whole folder, so VS Code finds the packages `W01`, `W02`, ...).
+3. Open a file and click **Run** above `main`. Type input in the **TERMINAL** panel.
+4. VS Code reports compile errors with the Eclipse compiler, so the wording can differ from NetBeans (javac), e.g. `i cannot be resolved to a variable` instead of `cannot find symbol`.
 
 ### Option 2: Using Command Line
 From the `Exercise2026` directory you can compile and run any example using `javac` and `java`.
