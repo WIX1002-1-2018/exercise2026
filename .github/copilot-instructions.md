@@ -10,7 +10,7 @@ This is a **Java course exercise repository** (WIX1002-2026) containing progress
   - `W01/` - Basic output and escape sequences (`W01E01.java` - `W01E08.java`, `W01T01.java`)
   - `W02/` - Java fundamentals: variables, types, operators, casting, Strings, Scanner and printf (`W02E01.java` - `W02E34.java`)
   - `W03/` - Selection: relational and logical operators, if, if-else, else-if, nested if, comparing Strings and decimals, switch (classic and arrow), the conditional operator, input checks (`W03E01.java` - `W03E27.java`; E23 to E27 are video Try it answers)
-  - `W04/` - Repetition I: while, do-while, for, tracing, counter/sentinel/yes-no loops, input validation in a loop, loop-variable scope, off-by-one (`W04E01.java` - `W04E22.java`; W04E20 onward are video Try it answers)
+  - `W04/` - Repetition I: while, do-while, for, tracing, counter/sentinel/yes-no loops, input validation in a loop, loop-variable scope, off-by-one (`W04E01.java` - `W04E23.java`; W04E20 onward are video Try it answers)
   - more weeks are added through the semester, following the same pattern as `exercise2025`
 
 - **Build System**: NetBeans Ant-based (`build.xml`, `nbproject/`)
