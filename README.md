@@ -141,6 +141,7 @@ The `src/W04` folder contains the repetition examples (Chapter 4, Flow of Contro
 - [`W04E18.java`](Exercise2026/src/W04/W04E18.java): INTENTIONALLY FAULTY (for the AI agent check): the agent's do-while adds the sentinel -1 to the total and counts it as a day.
 - [`W04E19.java`](Exercise2026/src/W04/W04E19.java): W04E18 fixed with the sentinel pattern: read before the loop, test, use, read again at the end.
 - [`W04E20.java`](Exercise2026/src/W04/W04E20.java): Try it answer for video #20 (try it yourself first): a plant grows 3 cm a week; print its height each week until it is taller than 20 cm.
+- [`W04E21.java`](Exercise2026/src/W04/W04E21.java): Try it answer for video #21 (try it yourself first): read words until the user types stop, then print how many words were typed.
 
 Week 04 videos (Programming Essentials)
 ---------------------------------------
@@ -149,7 +150,7 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
 | #20 while Loops and Tracing | W04E01 to W04E04 | W04E20 |
-| #21 Stopping a Loop: Sentinel, Yes/No, do-while, Safe Input | W04E05 to W04E09 | (added with the video) |
+| #21 Stopping a Loop: Sentinel, Yes/No, do-while, Safe Input | W04E05 to W04E09 | W04E21 |
 | #22 for Loops, Choosing a Loop, Guessing Game | W04E10 to W04E14 | (added with the video) |
 | #23 Loop Mistakes and an AI Check | W04E15, W04E16, W04E18 (AI agent: the bug), W04E19 (the fix) | (added with the video) |
 
