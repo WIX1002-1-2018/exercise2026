@@ -4,7 +4,7 @@ package W02;
 public class W02E28 {
     public static void main(String[] args) {
         int m1 = 70, m2 = 85, m3 = 90;
-        double average = (m1 + m2 + m3) / 3;
-        System.out.println("Average: " + average);
+        double average = (double)(m1 + m2 + m3) / 3.0;
+        System.out.printf("Average: " +"%.2f%n" , average);
     }
 }
