@@ -102,6 +102,9 @@ The `src/W03` folder contains the selection examples (Chapter 3, Flow of Control
 - [`W03E25.java`](Exercise2026/src/W03/W03E25.java): Try it answer for video #17 (try it yourself first): check a voucher code, ignoring upper and lower case.
 - [`W03E26.java`](Exercise2026/src/W03/W03E26.java): Try it answer for video #18 (try it yourself first): a traffic light with a switch expression and a default.
 - [`W03E27.java`](Exercise2026/src/W03/W03E27.java): Try it answer for video #19 (try it yourself first): bus fare by distance, with safe input.
+- [`W03L01.java`](Exercise2026/src/W03/W03L01.java): Lab 2, question 1: Fahrenheit to Celsius, two decimal places. Answer by [Ethan (@ETHAN071104)](https://github.com/ETHAN071104), accepted from [PR #5](https://github.com/WIX1002-1-2018/exercise2026/pull/5).
+- [`W03L02.java`](Exercise2026/src/W03/W03L02.java): Lab 2, question 2: monthly car loan payment, two decimal places. Answer by [Ethan (@ETHAN071104)](https://github.com/ETHAN071104), accepted from [PR #5](https://github.com/WIX1002-1-2018/exercise2026/pull/5).
+- [`W03L04.java`](Exercise2026/src/W03/W03L04.java): Lab 2, question 4: seconds to hours, minutes and seconds (hh:mm:ss). Answer by [Azzam (@azzamaziz-2026)](https://github.com/azzamaziz-2026), accepted from [PR #11](https://github.com/WIX1002-1-2018/exercise2026/pull/11).
 - [`W03T06.java`](Exercise2026/src/W03/W03T06.java): Tutorial 2, question 6 (solved in the T2 tutorial, 20 Oct 2026): read the diameter, print the circumference with `Math.PI`, three decimal places.
 - [`W03T07.java`](Exercise2026/src/W03/W03T07.java): Tutorial 2, question 7 (solved in the T2 tutorial, 20 Oct 2026): convert inches to meters (1 inch = 2.54 cm), two decimal places.
 
