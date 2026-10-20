@@ -1,0 +1,11 @@
+package W03;
+import java.util.Scanner;
+public class Q1 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter fahrenheit (°F): ");
+        double fahrenheit = sc.nextDouble();
+        double celcius = (fahrenheit - 32)/1.8;
+        System.out.printf("Celcius: %.2f°C: ", celcius);
+    }
+}
