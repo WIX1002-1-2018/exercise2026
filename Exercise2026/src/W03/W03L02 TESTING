@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class T2Q2 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int P,D,Y,R;
+        double M;
+        System.out.println("""
+                           P = The price of the car 
+                           D = Down payment 
+                           R = Interest Rate in % 
+                           Y = Loan duration in year 
+                           M = Monthly Payment 
+                           """);
+        System.out.print("Please enter amount of P: ");
+        P = sc.nextInt();
+        System.out.print("\nPlease enter amount of D: ");
+        D = sc.nextInt();
+        System.out.print("\nPlease enter amount of R: ");
+        R = sc.nextInt();
+        System.out.print("\nPlease enter amount of Y: ");
+        Y = sc.nextInt();
+        M = (double)(P-D)*(1+ R*Y/100.0)/(Y*12);
+        System.out.printf("Amount of M (Monthly Payment) is RM%.2f%n", M);
+        
+        sc.close();
+    }
+}
