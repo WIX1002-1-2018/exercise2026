@@ -24,5 +24,7 @@ public class W02L04{
         int seconds = totalSeconds % 60;
 
         System.out.printf("%d seconds is %d hours, %d minutes and %d seconds", totalSeconds, hours, mins, seconds);
+        
+        input.close();
     }
 }
