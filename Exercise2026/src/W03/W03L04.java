@@ -20,6 +20,7 @@ public class W03L04 {
         //example: 3613 -> 01:00:13
         
         System.out.printf("%02d:%02d:%02d%n", hours, minutes, seconds);
+        scanner.close();
         
     }
 }
