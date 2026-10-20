@@ -17,13 +17,15 @@ public class W03L05{
         Random r = new Random();
 
         int num = r.nextInt(10001);
-        int no = num;
-        int sum = 0;
+        
+        int d1 = num % 10;
+        int d2 = (num / 10) % 10;
+        int d3 = (num / 100) % 10;
+        int d4 = (num / 1000) % 10;
+        int d5 = (num / 10000) % 10;
 
-        while(no > 0){
-            sum += no % 10;
-            no /= 10;
-        }
+        int sum = d1 + d2 + d3 + d4 + d5;
+
 
         System.out.printf("The random number is %d and sum of all the digits in the number is %d.", num, sum);
 
