@@ -30,5 +30,6 @@ public class W04L01 {
         else {
             System.out.print("Invalid operand");
         }
+        sc.close();
     }
 }
