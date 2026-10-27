@@ -18,10 +18,20 @@ public class W04L01 {
                  System.out.printf("%d %c %d = %d%n",num1, operand, num2, (num1*num2));
                  break;
             case '/':
-                 System.out.printf("%d %c %d = %d%n",num1, operand, num2, (num1/num2));
+                 if (num2 == 0){
+                    System.out.println("Cannot divide by zero");
+                 }   
+                 else{
+                    System.out.printf("%d %c %d = %d%n",num1, operand, num2, (num1/num2));
+                 }
                  break;
             case '%':
+                 if (num2 == 0){
+                    System.out.println("Cannot divide by zero");
+                 } 
+                 else{
                  System.out.printf("%d %c %d = %d%n",num1, operand, num2, (num1%num2));
+                 }
                  break;
             default:
                 break;
