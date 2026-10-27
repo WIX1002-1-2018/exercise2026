@@ -347,6 +347,11 @@ The `src/W09` folder contains the file input and output examples (Chapter 7, Fil
 - [`W09E24.java`](Exercise2026/src/W09/W09E24.java): Worked example: an expense tracker that appends to `expenses.csv` (always with a dot as the decimal point) and shows all expenses and the total; the typed amount and every saved amount are checked (damaged lines are skipped); IPO in the comments.
 - [`W09E25.java`](Exercise2026/src/W09/W09E25.java): INTENTIONALLY FAULTY (AI agent check): saves three names and reads them back, but reads 0 names.
 - [`W09E26.java`](Exercise2026/src/W09/W09E26.java): Fix of W09E25: close the writer (try-with-resources) before reading the file.
+- [`W09E27.java`](Exercise2026/src/W09/W09E27.java): Try it answer for video #41 (try it yourself first): write three to-do items to `todo.txt`, then open it again in append mode and add a fourth; `checkError()` after each close.
+- [`W09E28.java`](Exercise2026/src/W09/W09E28.java): Try it answer for video #42 (try it yourself first): count how many passed (50 or more) and failed in `quiz_marks.csv` (name,mark), skipping a line whose mark is not a whole number from 0 to 100; a sample file is made only if none is there.
+- [`W09E29.java`](Exercise2026/src/W09/W09E29.java): Try it answer for video #43 (try it yourself first): methods `saveLines(file, String[])` with BufferedWriter and `lastLine(file)` with BufferedReader (null for an empty file), both with try-with-resources.
+- [`W09E30.java`](Exercise2026/src/W09/W09E30.java): Try it answer for video #44 (try it yourself first): save three cities and temperatures in a binary file, read them back until the end of the file, and print the cities above 30.0 degrees and how many.
+- [`W09E31.java`](Exercise2026/src/W09/W09E31.java): Try it answer for video #45 (try it yourself first): make a folder, write `notes.txt`, print its size and rename it, checking every result (mkdirs, checkError, renameTo).
 
 Week 09 videos (Programming Essentials)
 ---------------------------------------
@@ -354,11 +359,11 @@ Planned for Sat 5 Dec 2026. Links are added when the videos are published.
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #41 Why Files? Writing Your First Text File | W09E01 to W09E05 | to come |
-| #42 Reading Text Files: Lines, Numbers and CSV | W09E06 to W09E09 | to come |
-| #43 Buffered I/O, try-with-resources and File Methods | W09E10 to W09E13 | to come |
-| #44 Binary Files: Saving and Loading Data | W09E14 to W09E18 | to come |
-| #45 The File Class, Modern Files API and an AI Check | W09E19 to W09E23, W09E25 (AI agent: the bug), W09E26 (the fix) | to come |
+| #41 Why Files? Writing Your First Text File | W09E01 to W09E05 | W09E27 |
+| #42 Reading Text Files: Lines, Numbers and CSV | W09E06 to W09E09 | W09E28 |
+| #43 Buffered I/O, try-with-resources and File Methods | W09E10 to W09E13 | W09E29 |
+| #44 Binary Files: Saving and Loading Data | W09E14 to W09E18 | W09E30 |
+| #45 The File Class, Modern Files API and an AI Check | W09E19 to W09E23, W09E25 (AI agent: the bug), W09E26 (the fix) | W09E31 |
 
 How to run
 ----------

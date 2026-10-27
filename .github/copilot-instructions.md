@@ -14,7 +14,7 @@ This is a **Java course exercise repository** (WIX1002-2026) containing progress
   - `W05/` - Repetition II: nested loops, patterns, break and continue (labels), GCD case study, numeric errors, modern Java loops (`String.repeat`, `void main` + `IO`, streams, `_`, `Math.clamp`) (`W05E01.java` - `W05E27.java`; W05E23 onward are video Try it answers)
   - `W06/` - Arrays: declare, loop, process, copy, search, sort, 2D arrays (`W06E01.java` onward)
   - `W07/` - Java methods: parameters, return, call stack, pass-by-value, overloading, arrays and methods, recursion (`W07E01.java` - `W07E34.java`)
-  - `W09/` - File input and output: text files, CSV, buffered I/O, try-with-resources, binary files, the `File` class, `java.nio.file` (`W09E01.java` - `W09E26.java`)
+  - `W09/` - File input and output: text files, CSV, buffered I/O, try-with-resources, binary files, the `File` class, `java.nio.file` (`W09E01.java` - `W09E31.java`)
   - more weeks are added through the semester, following the same pattern as `exercise2025`
 
 - **Build System**: NetBeans Ant-based (`build.xml`, `nbproject/`)
