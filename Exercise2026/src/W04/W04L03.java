@@ -16,5 +16,6 @@ public class W04L03 {
         else
             commission = sales*0.125;
         System.out.printf("Total commission received: %.2f\n",commission);
+        sc.close();
     }
 }
