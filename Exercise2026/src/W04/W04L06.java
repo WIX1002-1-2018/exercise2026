@@ -6,9 +6,9 @@ public class W04L06 {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter radius of circle: ");
         double radius = in.nextDouble();
-        System.out.println("Enter x-coordinate of circle: ");
+        System.out.println("Enter x-coordinate of point: ");
         double x = in.nextDouble();
-        System.out.println("Enter y-coordinate of circle: ");
+        System.out.println("Enter y-coordinate of point: ");
         double y = in.nextDouble();
         
         double distance = Math.sqrt((x*x)+(y*y));
