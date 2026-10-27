@@ -159,10 +159,10 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #20 while Loops and Tracing | W04E01 to W04E04 | W04E20 |
-| #21 Stopping a Loop: Sentinel, Yes/No, do-while, Safe Input | W04E05 to W04E09 | W04E21 |
-| #22 for Loops, Choosing a Loop, Guessing Game | W04E10 to W04E14 | W04E22 |
-| #23 Loop Mistakes and an AI Check | W04E15, W04E16, W04E18 (AI agent: the bug), W04E19 (the fix) | W04E23 |
+| [#20 while Loops and Tracing](https://youtu.be/_uGscHGTRB0) | W04E01 to W04E04 | W04E20 |
+| [#21 Stopping a Loop: Sentinel, Yes/No, do-while, Safe Input](https://youtu.be/G3jM-xdFwVw) | W04E05 to W04E09 | W04E21 |
+| [#22 for Loops, Choosing a Loop, Guessing Game](https://youtu.be/7_gdlAP7SoE) | W04E10 to W04E14 | W04E22 |
+| [#23 Loop Mistakes and an AI Check](https://youtu.be/ckwJhZjnCq0) | W04E15, W04E16, W04E18 (AI agent: the bug), W04E19 (the fix) | W04E23 |
 
 Self-study (in the lecture slides, not in a video): W04E17 (bus card worked example).
 
