@@ -14,9 +14,17 @@ public class W04L01 {
             case '+' -> result = num1+num2;
             case '-' -> result = num1-num2;
             case '*' -> result = num1*num2;
-            case '/' -> result = num1/num2;
+            case '/' -> {
+                if (num2 == 0){
+                    System.out.println("Cannot divide by 0");
+                }else{
+                    result = (double) num1 / num2;
+                }
+            }
             case '%' -> result = num1%num2;
-            default -> {System.out.println("Invalid syntax");System.exit(0);}
+            default -> {
+                System.out.println("Invalid syntax");
+                System.exit(0);}
         }
         System.out.printf("%d %c %d = %.2f",num1,operation,num2,result);
         in.close();
