@@ -11,7 +11,8 @@ public class W10E18 {
         int grams = Integer.parseInt("850");            // text to int (Week 9: from a file or keyboard)
         double kg = Double.parseDouble("1.25");
         String text = Integer.toString(grams);          // int to text
-        System.out.println(grams + " g, " + kg + " kg, text \"" + text + "\" has " + text.length() + " characters");
+        System.out.println(grams + " g, " + kg + " kg, text \"" + text + "\" has "
+                + text.length() + " characters");
 
         Integer boxed = 850;                            // autoboxing (old style new Integer(850) is deprecated)
         Integer fromText = Integer.valueOf("42");       // valueOf: text or int to an Integer object

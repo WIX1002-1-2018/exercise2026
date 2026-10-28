@@ -29,7 +29,8 @@ public class W10E29 {
         };
         int total = 0, longest = 0;
         for (int i = 0; i < playlist.length; i++) {
-            System.out.println((i + 1) + ". " + playlist[i].getTitle() + ", " + playlist[i].getSeconds() + " s");
+            System.out.println((i + 1) + ". " + playlist[i].getTitle()
+                    + ", " + playlist[i].getSeconds() + " s");
             total += playlist[i].getSeconds();
             if (playlist[i].getSeconds() > playlist[longest].getSeconds()) {
                 longest = i;

@@ -24,7 +24,8 @@ public class W10E20 {
         ParcelRecordE20 a = new ParcelRecordE20("MY10001", "Aisyah", 1.2);
         ParcelRecordE20 b = new ParcelRecordE20("MY10001", "Aisyah", 1.2);
         System.out.println(a);                      // toString comes free
-        System.out.println("To: " + a.to() + ", " + a.kg() + " kg, fee RM " + String.format(Locale.ROOT, "%.2f", a.fee()));
+        System.out.println("To: " + a.to() + ", " + a.kg() + " kg, fee RM "
+                + String.format(Locale.ROOT, "%.2f", a.fee()));
         System.out.println("a.equals(b): " + a.equals(b) + ", a == b: " + (a == b));
         // Try it: new ParcelRecordE20("MY10002", "Ben", -1) and read the message.
     }
