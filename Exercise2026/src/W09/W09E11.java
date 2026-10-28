@@ -9,7 +9,10 @@ import java.io.IOException;
 public class W09E11 {
     public static void main(String[] args) throws IOException {
         String[] days = {"Mon", "Tue", "Wed", "Thu", "Fri"};
-        String[] plan = {"Lecture (DK2)", "Tutorial and lab (MM4)", "Self-study", "Watch the videos", "Revise"};
+        String[] plan = {
+            "Lecture (DK2)", "Tutorial and lab (MM4)",
+            "Self-study", "Watch the videos", "Revise"
+        };
         BufferedWriter out = new BufferedWriter(new FileWriter("my_week.txt"));
         for (int i = 0; i < days.length; i++) {
             out.write(days[i] + ": " + plan[i]);
