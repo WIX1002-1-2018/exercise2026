@@ -394,19 +394,20 @@ The `src/W10` folder contains the class examples (Chapter 8, Class), in the same
 - [`W10E22.java`](Exercise2026/src/W10/W10E22.java): Worked example (self-study): a club membership list with a static id, an array of members and a file.
 - [`W10E23.java`](Exercise2026/src/W10/W10E23.java): AI agent check, intentionally faulty: a constructor that assigns each parameter to itself (study it, do not copy it).
 - [`W10E24.java`](Exercise2026/src/W10/W10E24.java): The fix with `this`, and a test line.
+- `W10E25.java` to `W10E30.java`: Try it answers for videos #46 to #51 (try each task yourself first).
 
 Week 10 videos (Programming Essentials)
 ---------------------------------------
 Planned for Sat 12 Dec 2026. Links are added when the videos are published.
 
-| Video | Files used |
-|---|---|
-| #46 Classes and Objects | W10E01 to W10E04 |
-| #47 Constructors and this | W10E05, W10E06, W10Parcel and W10E10 |
-| #48 Encapsulation: private, Getters, Setters, toString and equals | W10E07 to W10E09 |
-| #49 static and Method Overloading | W10E11 to W10E13 |
-| #50 Objects Working Together: Arrays, Methods and Files | W10E14 to W10E17 |
-| #51 Wrapper Classes, Records and an AI Check | W10E18 to W10E20, W10E23 (AI agent: the bug), W10E24 (the fix) |
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #46 Classes and Objects | W10E01 to W10E04 | W10E25 |
+| #47 Constructors and this | W10E05, W10E06, W10Parcel and W10E10 | W10E26 |
+| #48 Encapsulation: private, Getters, Setters, toString and equals | W10E07 to W10E09 | W10E27 |
+| #49 static and Method Overloading | W10E11 to W10E13 | W10E28 |
+| #50 Objects Working Together: Arrays, Methods and Files | W10E14 to W10E17 | W10E29 |
+| #51 Wrapper Classes, Records and an AI Check | W10E18 to W10E20, W10E23 (AI agent: the bug), W10E24 (the fix) | W10E30 |
 
 How to run
 ----------
