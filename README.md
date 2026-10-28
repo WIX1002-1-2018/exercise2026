@@ -365,6 +365,49 @@ Planned for Sat 5 Dec 2026. Links are added when the videos are published.
 | #44 Binary Files: Saving and Loading Data | W09E14 to W09E18 | W09E30 |
 | #45 The File Class, Modern Files API and an AI Check | W09E19 to W09E23, W09E25 (AI agent: the bug), W09E26 (the fix) | W09E31 |
 
+
+Summary of Week 10 (W10)
+-------------------------
+The `src/W10` folder contains the class examples (Chapter 8, Class), in the same order as the Week 10 lecture. One running example, a parcel delivery app, grows step by step. Each helper class sits in the same file as its example (no `public`, named with the file number, e.g. `ParcelE02`), so every file runs on its own; `W10Parcel.java` with `W10E10` shows the usual layout of one public class per file.
+
+- [`W10E01.java`](Exercise2026/src/W10/W10E01.java): Why classes: three parcels in parallel arrays; swapping only one array mixes up the data.
+- [`W10E02.java`](Exercise2026/src/W10/W10E02.java): A first class: fields, `new`, the dot; two objects keep separate values.
+- [`W10E03.java`](Exercise2026/src/W10/W10E03.java): Methods in a class: `fee()` and `describe()` use the object's own fields.
+- [`W10E04.java`](Exercise2026/src/W10/W10E04.java): References: `b = a` gives two names for one object; `==` compares references; `null`.
+- [`W10E05.java`](Exercise2026/src/W10/W10E05.java): Constructors: default values (0, false, null), a constructor with parameters, `this.weightKg = weightKg`.
+- [`W10E06.java`](Exercise2026/src/W10/W10E06.java): Constructor overloading, `this(...)`, and a copy constructor (a copy vs an alias).
+- [`W10E07.java`](Exercise2026/src/W10/W10E07.java): Why `private`: a public field accepts -5 kg; a setter that checks the value.
+- [`W10E08.java`](Exercise2026/src/W10/W10E08.java): Getters and setters: `getX`, `setX`, `isX`, a read-only `final` tracking number, `markDelivered()`.
+- [`W10E09.java`](Exercise2026/src/W10/W10E09.java): `toString` and `equals`: readable printing; `==` vs `equals` (same tracking number).
+- [`W10Parcel.java`](Exercise2026/src/W10/W10Parcel.java) and [`W10E10.java`](Exercise2026/src/W10/W10E10.java): Two files, one package: one public class per file, `package W10;`, `import` from another package.
+- [`W10E11.java`](Exercise2026/src/W10/W10E11.java): `static`: one shared counter gives each new parcel the next tracking number.
+- [`W10E12.java`](Exercise2026/src/W10/W10E12.java): `static final` constants and static methods (no object needed, like `Math.max`).
+- [`W10E13.java`](Exercise2026/src/W10/W10E13.java): Method overloading: `fee(double)`, `fee(double, boolean)`, `fee(int grams)`; why `fee(1)` means 1 gram.
+- [`W10E14.java`](Exercise2026/src/W10/W10E14.java): An array of objects: every slot starts as `null`; total, heaviest, not delivered.
+- [`W10E15.java`](Exercise2026/src/W10/W10E15.java): Objects and methods: a method can change the object it receives, but not the caller's variable.
+- [`W10E16.java`](Exercise2026/src/W10/W10E16.java): Objects inside objects: a delivery route holds an array of parcels.
+- [`W10E17.java`](Exercise2026/src/W10/W10E17.java): Objects and files: save parcels as CSV lines and build new objects from them (`route.csv`).
+- [`W10E18.java`](Exercise2026/src/W10/W10E18.java): Wrapper classes: `Integer.MAX_VALUE`, `parseInt`, autoboxing, `==` vs `equals` on `Integer` (127 and 128).
+- [`W10E19.java`](Exercise2026/src/W10/W10E19.java): `Character` methods: check a tracking code (two capital letters, five digits).
+- [`W10E20.java`](Exercise2026/src/W10/W10E20.java): Modern Java (good to know): a `record` (Java 16) with a compact constructor.
+- [`W10E21.java`](Exercise2026/src/W10/W10E21.java): Three common mistakes (Try it): `null` before `new`, an instance field in `static main`, `==` on objects.
+- [`W10E22.java`](Exercise2026/src/W10/W10E22.java): Worked example (self-study): a club membership list with a static id, an array of members and a file.
+- [`W10E23.java`](Exercise2026/src/W10/W10E23.java): AI agent check, intentionally faulty: a constructor that assigns each parameter to itself (study it, do not copy it).
+- [`W10E24.java`](Exercise2026/src/W10/W10E24.java): The fix with `this`, and a test line.
+
+Week 10 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 12 Dec 2026. Links are added when the videos are published.
+
+| Video | Files used |
+|---|---|
+| #46 Classes and Objects | W10E01 to W10E04 |
+| #47 Constructors and this | W10E05, W10E06, W10Parcel and W10E10 |
+| #48 Encapsulation: private, Getters, Setters, toString and equals | W10E07 to W10E09 |
+| #49 static and Method Overloading | W10E11 to W10E13 |
+| #50 Objects Working Together: Arrays, Methods and Files | W10E14 to W10E17 |
+| #51 Wrapper Classes, Records and an AI Check | W10E18 to W10E20, W10E23 (AI agent: the bug), W10E24 (the fix) |
+
 How to run
 ----------
 

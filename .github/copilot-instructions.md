@@ -15,6 +15,7 @@ This is a **Java course exercise repository** (WIX1002-2026) containing progress
   - `W06/` - Arrays: declare, loop, process, copy, search, sort, 2D arrays (`W06E01.java` onward)
   - `W07/` - Java methods: parameters, return, call stack, pass-by-value, overloading, arrays and methods, recursion (`W07E01.java` - `W07E34.java`)
   - `W09/` - File input and output: text files, CSV, buffered I/O, try-with-resources, binary files, the `File` class, `java.nio.file` (`W09E01.java` - `W09E31.java`)
+  - `W10/` - Class: objects, references, constructors, `this`, encapsulation, getters and setters, `toString`/`equals`, `static`, overloading, arrays of objects, wrapper classes, `record` (`W10E01.java` - `W10E24.java`, `W10Parcel.java`)
   - more weeks are added through the semester, following the same pattern as `exercise2025`
 
 - **Build System**: NetBeans Ant-based (`build.xml`, `nbproject/`)
