@@ -10,7 +10,7 @@ import java.util.Locale;
 record ParcelRecordE20(String trackingNo, String to, double kg) {
     ParcelRecordE20 {
         if (!(kg > 0 && kg < 1000)) {                   // also rejects NaN and infinity
-            throw new IllegalArgumentException("weight must be more than 0 kg");
+            throw new IllegalArgumentException("weight must be over 0 and under 1000 kg");
         }
     }
 
