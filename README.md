@@ -20,6 +20,24 @@ The `src/W01` folder contains introductory Java examples covering basic output a
 - [`W01E08.java`](Exercise2026/src/W01/W01E08.java): Creating formatted output with escape sequences (student information report).
 - [`W01T01.java`](Exercise2026/src/W01/W01T01.java): A minimal "Hello World" program (prints "Hello World").
 
+Week 01 videos (Programming Essentials)
+---------------------------------------
+Playlist: https://www.youtube.com/playlist?list=PLHpDJHOFvRCU
+
+| Video | Topic or files used |
+|---|---|
+| [#1 Thinking Like a Programmer: From Problem to Java](https://youtu.be/NbYAiyNEEuA) | problem solving |
+| [#2 Algorithmic Thinking: Clear Steps for People, Computers and AI Agents](https://youtu.be/hGMtItTWWUo) | algorithms |
+| [#3 Computational Thinking: Plan Before You Code](https://youtu.be/hIhc1XcDxQg) | decomposition, patterns, abstraction |
+| [#4 Git and GitHub for Beginners](https://youtu.be/tktRXtLFQUQ) | the course repo workflow |
+| [#5 Pseudocode and Flowcharts](https://youtu.be/mHY8kjneLEk) | sequence, selection, repetition |
+| [#6 How Java Runs: javac, Bytecode and the JVM](https://youtu.be/1Tci_WeNjtI) | compile and run |
+| [#7 Your First Java Program in NetBeans, Line by Line](https://youtu.be/yo15exfEPHw) | a first program |
+| [#8 Get the Course Code: Clone and Run a GitHub Repo in NetBeans](https://youtu.be/BfGDHFgktN0) | W01E01, W01E05, W01E08, W01T01 |
+| [#9 Syntax, Logic and Run-time Errors: How to Debug in NetBeans](https://youtu.be/xgLIfXQ-S9I) | errors and debugging |
+| [#10 Java in VS Code: Run, Debug, Claude Code and a Dev Container](https://youtu.be/8Hh2lBH_iV8) | W01E01, W01E03, W01E05 |
+| [#11 Plan First, Then Prompt: Coding with AI the Right Way](https://youtu.be/mtg2qyUC4hw) | AI agents, plan first |
+
 Summary of Week 02 (W02)
 -------------------------
 The `src/W02` folder contains the Java fundamentals examples (variables, types, operators, casting, Strings, Scanner input and printf output), in the same order as the Week 2 lecture and the Programming Essentials videos #12 to #14. Lines marked "Try it" are commented out on purpose: remove the `//` to see the compiler or run-time message, then put it back.
