@@ -409,6 +409,44 @@ Planned for Sat 12 Dec 2026. Links are added when the videos are published.
 | #50 Objects Working Together: Arrays, Methods and Files | W10E14 to W10E17 | W10E29 |
 | #51 Wrapper Classes, Records and an AI Check | W10E18 to W10E20, W10E23 (AI agent: the bug), W10E24 (the fix) | W10E30 |
 
+Summary of Week 11 (W11)
+-------------------------
+The `src/W11` folder contains the inheritance examples (Chapter 9, Inheritance), in the same order as the Week 11 videos. The Week 10 parcel app continues: `Parcel` → `ExpressParcel`, `FragileParcel`, `SameDayParcel`. Helper classes sit in the same file as their example, so every file runs on its own; `W11Parcel.java` (public, own file) and the package `W11.depot` show `protected` across packages. Each "Try it" is a small edit that should NOT compile: make it, read the compiler message, then undo it.
+
+- [`W11E01.java`](Exercise2026/src/W11/W11E01.java): Why inheritance: a copy-pasted express class misses a fee change (RM 15.40 instead of RM 16.40).
+- [`W11E02.java`](Exercise2026/src/W11/W11E02.java): `extends`: the subclass inherits the methods (not the private fields) and adds one field; the UML arrow.
+- [`W11E03.java`](Exercise2026/src/W11/W11E03.java): Private fields stay private: the subclass reads the weight through a getter (Try it: use the field).
+- [`W11E04.java`](Exercise2026/src/W11/W11E04.java): Constructor chaining: `super(...)` first; three levels print from the top class down.
+- [`W11E05.java`](Exercise2026/src/W11/W11E05.java): Every chain must reach a superclass constructor: `super(...)` directly or through `this(...)`.
+- [`W11E06.java`](Exercise2026/src/W11/W11E06.java): Overriding `fee()` with `super.fee()` plus a surcharge (express) or insurance (fragile).
+- [`W11E07.java`](Exercise2026/src/W11/W11E07.java): `@Override`: a misspelled `fees()` compiles silently without it (Try it: add `@Override`).
+- [`W11E08.java`](Exercise2026/src/W11/W11E08.java): Overriding vs overloading: `fee()` and `fee(boolean insured)`.
+- [`W11E09.java`](Exercise2026/src/W11/W11E09.java): Override rules: covariant return (`self()`), no weaker access, a private method is not overridden.
+- [`W11E10.java`](Exercise2026/src/W11/W11E10.java): The `Object` class: `getClass()` vs `instanceof`, and `null instanceof`.
+- [`W11E11.java`](Exercise2026/src/W11/W11E11.java): `toString` overridden in the parent and extended with `super.toString()` in the child.
+- [`W11E12.java`](Exercise2026/src/W11/W11E12.java): The standard `equals(Object)` and `hashCode()`: equal tracking numbers mean equal parcels.
+- [`W11Parcel.java`](Exercise2026/src/W11/W11Parcel.java) and [`W11E13.java`](Exercise2026/src/W11/W11E13.java): package access and `protected` inside the package `W11`.
+- [`depot/W11E14.java`](Exercise2026/src/W11/depot/W11E14.java): another package (`W11.depot`): a subclass uses the protected field through `this` (Try it: three edits that do not compile).
+- [`W11E15.java`](Exercise2026/src/W11/W11E15.java): `final` field, `final` method and `final` class (`String` is final).
+- [`W11E16.java`](Exercise2026/src/W11/W11E16.java): Modern Java (good to know): a `sealed` class (Java 17) with `permits`, `final` and `non-sealed` subclasses.
+- [`W11E17.java`](Exercise2026/src/W11/W11E17.java): AI agent check, intentionally faulty: `tostring()` without `@Override` (study it, do not copy it).
+- [`W11E18.java`](Exercise2026/src/W11/W11E18.java): The fix: `@Override public String toString()`.
+- [`W11E19.java`](Exercise2026/src/W11/W11E19.java): Guided exercise: is-a (`extends`) or has-a (a field).
+- [`W11E20.java`](Exercise2026/src/W11/W11E20.java): Guided exercise: a field declared again in the subclass hides the parent's field (prints 0.0).
+
+Week 11 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 19 Dec 2026. Links are added when the videos are published.
+
+| Video | Files used |
+|---|---|
+| #52 Inheritance: Why extends | W11E01 to W11E03 |
+| #53 Constructors and super | W11E04, W11E05 |
+| #54 Overriding and @Override | W11E06 to W11E09 |
+| #55 The Object Class: getClass, toString and equals | W11E10 to W11E12 |
+| #56 protected and Packages | W11Parcel, W11E13, depot/W11E14 |
+| #57 final, sealed and an AI Check | W11E15 to W11E18 |
+
 How to run
 ----------
 
