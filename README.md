@@ -1,5 +1,15 @@
 # WIX1002 Sample code for 2026
 
+[![Course](https://img.shields.io/badge/Course-WIX1002%20Fundamentals%20of%20Programming-2E2D87)](#wix1002-sample-code-for-2026)
+[![Universiti Malaya](https://img.shields.io/badge/Universiti%20Malaya-Sem%201%202026%2F2027-B8902B)](https://fsktm.um.edu.my)
+[![Java](https://img.shields.io/badge/Java-JDK%2025-ED8B00?logo=openjdk&logoColor=white)](https://jdk.java.net/25/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-ready-007ACC)](#how-to-run)
+[![NetBeans](https://img.shields.io/badge/NetBeans-project-1B6AC6?logo=apachenetbeanside&logoColor=white)](#how-to-run)
+[![Dev Container](https://img.shields.io/badge/Dev%20Container-included-2496ED?logo=docker&logoColor=white)](.devcontainer/devcontainer.json)
+[![YouTube](https://img.shields.io/badge/YouTube-Programming%20Essentials-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLHpDJHOFvRCU)
+[![Last commit](https://img.shields.io/github/last-commit/WIX1002-1-2018/exercise2026)](https://github.com/WIX1002-1-2018/exercise2026/commits/main)
+[![Stars](https://img.shields.io/github/stars/WIX1002-1-2018/exercise2026?style=flat)](https://github.com/WIX1002-1-2018/exercise2026/stargazers)
+
 This repository contains solutions and example exercises for WIX1002 (2026), Sem 1 2026/2027.
 
 Contents
