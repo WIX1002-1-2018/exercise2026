@@ -461,19 +461,20 @@ The `src/W11` folder contains the inheritance examples (Chapter 9, Inheritance),
 - [`W11E18.java`](Exercise2026/src/W11/W11E18.java): The fix: `@Override public String toString()`.
 - [`W11E19.java`](Exercise2026/src/W11/W11E19.java): Guided exercise: is-a (`extends`) or has-a (a field).
 - [`W11E20.java`](Exercise2026/src/W11/W11E20.java): Guided exercise: a field declared again in the subclass hides the parent's field (prints 0.0).
+- `W11E25.java` to `W11E28.java`, `depot/W11E29.java`, `W11E30.java`: Try it answers for videos #52 to #57 (try each task yourself first; write your own version in your own project, since these class names are already in the repo).
 
 Week 11 videos (Programming Essentials)
 ---------------------------------------
 Planned for Sat 19 Dec 2026. Links are added when the videos are published.
 
-| Video | Files used |
-|---|---|
-| #52 Inheritance: Why extends | W11E01 to W11E03 |
-| #53 Constructors and super | W11E04, W11E05 |
-| #54 Overriding and @Override | W11E06 to W11E09 |
-| #55 The Object Class: getClass, toString and equals | W11E10 to W11E12 |
-| #56 protected and Packages | W11Parcel, W11E13, depot/W11E14 |
-| #57 final, sealed and an AI Check | W11E15 to W11E18 |
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #52 Inheritance: Why extends | W11E01 to W11E03 | W11E25 |
+| #53 Constructors and super | W11E04, W11E05 | W11E26 |
+| #54 Overriding and @Override | W11E06 to W11E09 | W11E27 |
+| #55 The Object Class: getClass, toString and equals | W11E10 to W11E12 | W11E28 |
+| #56 protected and Packages | W11Parcel, W11E13, depot/W11E14 | depot/W11E29 |
+| #57 final, sealed and an AI Check | W11E15 to W11E18 | W11E30 |
 
 How to run
 ----------
