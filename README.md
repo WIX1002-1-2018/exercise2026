@@ -476,6 +476,46 @@ Planned for Sat 19 Dec 2026. Links are added when the videos are published.
 | #56 protected and Packages | W11Parcel, W11E13, depot/W11E14 | depot/W11E29 |
 | #57 final, sealed and an AI Check | W11E15 to W11E18 | W11E30 |
 
+Summary of Week 12 (W12)
+-------------------------
+The `src/W12` folder contains the polymorphism examples (Chapter 10, Polymorphism), in the same order as the Week 12 lecture. The parcel app continues: one variable or one list holds every kind of parcel, and each object runs its own version of a method. Helper classes sit in the same file as their example, so every file runs on its own. Each "Try it" is a small edit: make it, read the compiler message (or the run-time error), then undo it.
+
+- [`W12E01.java`](Exercise2026/src/W12/W12E01.java): One `ParcelE01` variable, two kinds of parcel: `fee()` follows the object.
+- [`W12E02.java`](Exercise2026/src/W12/W12E02.java): A polymorphic route: one array, four kinds of parcel, one loop, the total.
+- [`W12E03.java`](Exercise2026/src/W12/W12E03.java): The declared type decides what may be called (Try it: an express-only method through a parcel variable).
+- [`W12E04.java`](Exercise2026/src/W12/W12E04.java): Special cases: a private method is not overridden, a static method is hidden, a final method stops overriding.
+- [`W12E05.java`](Exercise2026/src/W12/W12E05.java): Downcasting with a cast (Try it: a wrong cast gives `ClassCastException`; no cast gives a compiler error).
+- [`W12E06.java`](Exercise2026/src/W12/W12E06.java): `instanceof` and the pattern form `p instanceof ExpressParcelE06 e` (Java 16).
+- [`W12E07.java`](Exercise2026/src/W12/W12E07.java): An abstract class with an abstract `fee()`; three concrete delivery items (Try it: `new` on the abstract class).
+- [`W12E08.java`](Exercise2026/src/W12/W12E08.java): Abstract class rules: a constructor and a normal method next to the abstract one (Try it: forget `fee()`).
+- [`W12E09.java`](Exercise2026/src/W12/W12E09.java): An interface: a parcel and a tracking kiosk in one `TrackableE09[]`.
+- [`W12E10.java`](Exercise2026/src/W12/W12E10.java): One class, two interfaces, and an interface constant.
+- [`W12E11.java`](Exercise2026/src/W12/W12E11.java): Interface rules: a `default` method; the implementation must be `public` (Try it).
+- [`W12E12.java`](Exercise2026/src/W12/W12E12.java): `Comparable<ParcelE12>`: natural order by tracking number, consistent with `equals`; `Arrays.sort`.
+- [`W12E13.java`](Exercise2026/src/W12/W12E13.java): `ArrayList<ParcelE13>`: `add`, `get`, `size`, for-each, `sort(null)`, `set`, `remove`.
+- [`W12E14.java`](Exercise2026/src/W12/W12E14.java): Copying: two names for one object vs a copy constructor; `clone()` built on it.
+- [`W12E15.java`](Exercise2026/src/W12/W12E15.java): A member inner class: each `Stop` belongs to one route.
+- [`W12E16.java`](Exercise2026/src/W12/W12E16.java): A static nested class and a local class.
+- [`W12E17.java`](Exercise2026/src/W12/W12E17.java): A `Comparator` by fee: first an anonymous class, then a lambda.
+- [`W12E18.java`](Exercise2026/src/W12/W12E18.java): Modern Java (good to know): `switch` with type patterns over a sealed family (Java 21).
+- [`W12E19.java`](Exercise2026/src/W12/W12E19.java): AI agent check, intentionally faulty: an unchecked cast stops with `ClassCastException` (study it, do not copy it).
+- [`W12E20.java`](Exercise2026/src/W12/W12E20.java): The fix: an overridden `promise()`, no cast.
+- [`W12E21.java`](Exercise2026/src/W12/W12E21.java): Guided exercise: abstract class or interface?
+- [`W12E22.java`](Exercise2026/src/W12/W12E22.java): Guided exercise: never compare by subtraction; use `Double.compare`.
+
+Week 12 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 26 Dec 2026. Links are added when the videos are published.
+
+| Video | Files used |
+|---|---|
+| #58 Polymorphism: One Variable, Many Objects | W12E01 to W12E03 |
+| #59 Casting, instanceof and an AI Check | W12E05, W12E06, W12E19, W12E20 |
+| #60 Abstract Classes | W12E07, W12E08 |
+| #61 Interfaces | W12E09 to W12E11 |
+| #62 Comparable and ArrayList | W12E12, W12E13 |
+| #63 Nested Classes and Lambdas | W12E15 to W12E17 |
+
 How to run
 ----------
 
