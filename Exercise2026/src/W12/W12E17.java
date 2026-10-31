@@ -63,7 +63,7 @@ public class W12E17 {
         System.out.println("by fee:  " + list);
 
         list.sort(null);
-        // Comparator has one abstract method (a functional interface), so a lambda can stand in for it.
+        // Comparator is a functional interface (the rule we supply is compare(a, b)), so a lambda can stand in for it.
         Comparator<ParcelE17> byFeeLambda = (a, b) -> Double.compare(a.fee(), b.fee());
         list.sort(byFeeLambda);
         System.out.println("lambda:  " + list);
