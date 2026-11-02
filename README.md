@@ -516,6 +516,41 @@ Planned for Sat 26 Dec 2026. Links are added when the videos are published.
 | #62 Comparable and ArrayList | W12E12, W12E13 |
 | #63 Nested Classes and Lambdas | W12E15 to W12E17 |
 
+Summary of Week 13 (W13)
+-------------------------
+The `src/W13` folder contains the exception examples (Chapter 11, Exception Handling), in the same order as the Week 13 lecture. The parcel app continues: reading a crash, catching it, safe input, clean-up with finally and try-with-resources, throwing and declaring exceptions, and two custom exceptions. W13E01 and W13E16 stop with an exception on purpose. W13E03, W13E09, W13E11 and W13E18 write a small file in the project folder before reading it. Each "Try it" is a small edit: make it, read the compiler message, then undo it.
+
+- [`W13E01.java`](Exercise2026/src/W13/W13E01.java): Reading a stack trace: the Week 12 cast stops with ClassCastException (stops on purpose).
+- [`W13E02.java`](Exercise2026/src/W13/W13E02.java): try-catch: around the call the loop stops; inside the loop only the bad parcel is skipped.
+- [`W13E03.java`](Exercise2026/src/W13/W13E03.java): Checked or unchecked: an IOException must be caught or declared (Try it: remove the try).
+- [`W13E04.java`](Exercise2026/src/W13/W13E04.java): Parsing text with Double.parseDouble; "NaN" parses, so check the weight rule too.
+- [`W13E05.java`](Exercise2026/src/W13/W13E05.java): A retry loop: ask again until the weight is valid.
+- [`W13E06.java`](Exercise2026/src/W13/W13E06.java): Several catch blocks; only the first match runs (Try it: put Exception first).
+- [`W13E07.java`](Exercise2026/src/W13/W13E07.java): Multi-catch with unrelated types (Try it: a parent and child type).
+- [`W13E08.java`](Exercise2026/src/W13/W13E08.java): finally runs when control leaves try/catch, also before a return.
+- [`W13E09.java`](Exercise2026/src/W13/W13E09.java): try-with-resources: close() is called, in reverse order.
+- [`W13E10.java`](Exercise2026/src/W13/W13E10.java): throw: a constructor refuses a weight that is not finite and greater than 0.
+- [`W13E11.java`](Exercise2026/src/W13/W13E11.java): throws: an IOException travels back from readFirstLine to main.
+- [`W13E12.java`](Exercise2026/src/W13/W13E12.java): A custom checked exception: overweight parcels (Try it: remove the try).
+- [`W13E13.java`](Exercise2026/src/W13/W13E13.java): A custom unchecked exception: invalid tracking numbers.
+- [`W13E14.java`](Exercise2026/src/W13/W13E14.java): AI agent check, intentionally faulty: an empty catch hides the problem and the total is wrong (study it, do not copy it).
+- [`W13E15.java`](Exercise2026/src/W13/W13E15.java): The fix: catch inside the loop, report and count rejected lines.
+- [`W13E16.java`](Exercise2026/src/W13/W13E16.java): Modern Java (good to know): helpful NullPointerException messages (Java 14; stops on purpose).
+- [`W13E17.java`](Exercise2026/src/W13/W13E17.java): Guided exercise: exception or if? A bounds check for an index.
+- [`W13E18.java`](Exercise2026/src/W13/W13E18.java): Guided exercise: nested try (file outside, each line inside).
+
+Week 13 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 2 Jan 2027. Links are added when the videos are published.
+
+| Video | Files used |
+|---|---|
+| #64 Exceptions: Reading a Stack Trace and try-catch | W13E01, W13E02 |
+| #65 Safe Input: Parsing and a Retry Loop | W13E04, W13E05 |
+| #66 finally and try-with-resources | W13E08, W13E09 |
+| #67 throw, throws and a Custom Exception | W13E10 to W13E13 |
+| #68 An AI Check: the Empty catch | W13E14 to W13E16 |
+
 How to run
 ----------
 
