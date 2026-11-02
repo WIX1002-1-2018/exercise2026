@@ -16,11 +16,13 @@ public class W13E15 {
                     accepted++;
                 } else {
                     rejected++;
-                    System.out.println("line " + (i + 1) + " rejected: weight must be finite and greater than 0");
+                    System.out.println("line " + (i + 1)
+                            + " rejected: weight must be finite and greater than 0");
                 }
             } catch (NumberFormatException e) {
                 rejected++;
-                System.out.println("line " + (i + 1) + " rejected: \"" + manifest[i] + "\" is not a number");
+                System.out.println("line " + (i + 1)
+                        + " rejected: \"" + manifest[i] + "\" is not a number");
             }
         }
         System.out.println(accepted + " accepted, " + rejected + " rejected");

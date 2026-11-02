@@ -16,10 +16,12 @@ public class W13E12 {
 
     static void accept(String trackingNo, double weightKg) throws OverweightParcelExceptionE12 {
         if (!(Double.isFinite(weightKg) && weightKg > 0)) {
-            throw new IllegalArgumentException("weight must be finite and greater than 0 kg: " + weightKg);
+            throw new IllegalArgumentException(
+                    "weight must be finite and greater than 0 kg: " + weightKg);
         }
         if (weightKg > LIMIT_KG) {
-            throw new OverweightParcelExceptionE12(trackingNo + " is " + weightKg + " kg, over the " + LIMIT_KG + " kg limit");
+            throw new OverweightParcelExceptionE12(
+                    trackingNo + " is " + weightKg + " kg, over the " + LIMIT_KG + " kg limit");
         }
         System.out.println(trackingNo + " accepted (" + weightKg + " kg)");
     }

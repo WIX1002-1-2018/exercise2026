@@ -8,7 +8,8 @@ class ParcelE10 {
 
     ParcelE10(String trackingNo, double weightKg) {
         if (!(Double.isFinite(weightKg) && weightKg > 0)) {
-            throw new IllegalArgumentException("weight must be finite and greater than 0 kg: " + weightKg);
+            throw new IllegalArgumentException(
+                    "weight must be finite and greater than 0 kg: " + weightKg);
         }
         this.trackingNo = trackingNo;
         this.weightKg = weightKg;
