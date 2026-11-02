@@ -538,18 +538,19 @@ The `src/W13` folder contains the exception examples (Chapter 11, Exception Hand
 - [`W13E16.java`](Exercise2026/src/W13/W13E16.java): Modern Java (good to know): helpful NullPointerException messages (Java 14; stops on purpose).
 - [`W13E17.java`](Exercise2026/src/W13/W13E17.java): Guided exercise: exception or if? A bounds check for an index.
 - [`W13E18.java`](Exercise2026/src/W13/W13E18.java): Guided exercise: nested try (file outside, each line inside).
+- `W13E25.java` to `W13E29.java`: Try it answers for videos #64 to #68 (try each task yourself first; write your own version in your own project, since these class names are already in the repo).
 
 Week 13 videos (Programming Essentials)
 ---------------------------------------
 Planned for Sat 2 Jan 2027. Links are added when the videos are published.
 
-| Video | Files used |
-|---|---|
-| #64 Exceptions: Reading a Stack Trace and try-catch | W13E01, W13E02 |
-| #65 Safe Input: Parsing and a Retry Loop | W13E04, W13E05 |
-| #66 finally and try-with-resources | W13E08, W13E09 |
-| #67 throw, throws and a Custom Exception | W13E10 to W13E13 |
-| #68 An AI Check: the Empty catch | W13E14 to W13E16 |
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #64 Exceptions: Reading a Stack Trace and try-catch | W13E01, W13E02 | W13E25 |
+| #65 Safe Input: Parsing and a Retry Loop | W13E04, W13E05 | W13E26 |
+| #66 finally and try-with-resources | W13E08, W13E09 | W13E27 |
+| #67 throw, throws and a Custom Exception | W13E10 to W13E13 | W13E28 |
+| #68 An AI Check: the Empty catch | W13E14 to W13E16 | W13E29 |
 
 How to run
 ----------
