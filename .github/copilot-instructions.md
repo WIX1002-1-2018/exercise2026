@@ -12,10 +12,14 @@ This is a **Java course exercise repository** (WIX1002-2026) containing progress
   - `W03/` - Selection: relational and logical operators, if, if-else, else-if, nested if, comparing Strings and decimals, switch (classic and arrow), the conditional operator, input checks (`W03E01.java` - `W03E27.java`; E23 to E27 are video Try it answers)
   - `W04/` - Repetition I: while, do-while, for, tracing, counter/sentinel/yes-no loops, input validation in a loop, loop-variable scope, off-by-one (`W04E01.java` - `W04E23.java`; W04E20 onward are video Try it answers)
   - `W05/` - Repetition II: nested loops, patterns, break and continue (labels), GCD case study, numeric errors, modern Java loops (`String.repeat`, `void main` + `IO`, streams, `_`, `Math.clamp`) (`W05E01.java` - `W05E27.java`; W05E23 onward are video Try it answers)
+  - `W06/` - Arrays: declare, loop, process, copy, search, sort, 2D arrays (`W06E01.java` onward)
+  - `W07/` - Java methods: parameters, return, call stack, pass-by-value, overloading, arrays and methods, recursion (`W07E01.java` - `W07E34.java`)
+  - `W09/` - File input and output: text files, CSV, buffered I/O, try-with-resources, binary files, the `File` class, `java.nio.file` (`W09E01.java` - `W09E31.java`)
+  - `W10/` - Class: objects, references, constructors, `this`, encapsulation, getters and setters, `toString`/`equals`, `static`, overloading, arrays of objects, wrapper classes, `record` (`W10E01.java` - `W10E30.java`, `W10Parcel.java`; E25 to E30 are Try it answers)
   - more weeks are added through the semester, following the same pattern as `exercise2025`
 
 - **Build System**: NetBeans Ant-based (`build.xml`, `nbproject/`)
-- **Output Files**: Generated `.txt` files saved to `Exercise2026/` root
+- **Output Files**: Data files made by the W09 examples (`.txt`, `.csv`, `.dat`, `reports/`) are saved in the working folder (NetBeans: `Exercise2026/`; VS Code: the repository folder) and are ignored by Git
 
 ## Naming Conventions
 
