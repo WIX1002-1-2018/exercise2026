@@ -1,78 +1,44 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package W05;
 
-/**
- *
- * @author DELL
- */
 import java.util.Random;
+
+/* Write a simple two players dice game. Each player will take turns to roll a dice. The
+first players that reach more than 100 points win the game. If the player rolls a 6, the
+player will score 6 points and has the chance to roll again */
 public class W05L05 {
-    public static void main(String[] args){
-        Random rd = new Random();
-        System.out.println("Welcome to 2 players dice game.");
-        System.out.println("""
-                           This is the rule:
-                           Each player will take turns to roll a dice. 
-                           The first players that reach more than 100 points win the game.
-                           If the player rolls a 6, the player will score 6 points and has the chance to roll again. 
-                           """);
-        int scorePlayer1 = 0, scorePlayer2 = 0;     //Record each player score
-        int turns = 1;          //Record round
-        int randomRoll;         //Record player doll
-        while(scorePlayer1 <= 100 && scorePlayer2 <= 100){
-            System.out.println("Round " + turns);     //Print current round
-            //Print infor/ instruction
-            System.out.print("""
-                               Player 1:
-                               Please roll a dice...
-                               """);
-            randomRoll = rd.nextInt(6)+1;       //rolling
-            System.out.println("Your roll: " + randomRoll);
-            scorePlayer1 += randomRoll;         //save the roll marks
-            if(randomRoll == 6){
-                do{
-                    System.out.println("You roll is 6! You get an extra roll!");
-                    randomRoll = rd.nextInt(6)+1;
-                    System.out.println("Your extra roll: " + randomRoll);
-                    scorePlayer1 += randomRoll;
-                }while(randomRoll == 6);
+    public static void main(String[] args) {
+        Random rand = new Random();
+        int player1 = 0, player2 = 0;
+        int dice = 0;
+        final int winScore = 100;
+        game:
+        while ((player1 <= winScore) && (player2 <= winScore)) {
+            do {
+                System.out.println("Player 1 rolls a dice");
+                dice = rand.nextInt(1, 7);
+                player1 += dice;
+                System.out.println("Player 1 rolled a " + dice + " (Current points: " + player1 + ")");
+                if (player1>winScore) {
+                    System.out.print("Player 1 wins with " + player1 + " points");
+                    break game;
+                }
             }
-            System.out.println("Player 1 current marks: " + scorePlayer1);
-            //if player1 marks alr >100, means player1 won alr, direct stop
-            if(scorePlayer1 > 100){
-                break;
-            }  
-            
-            System.out.print("""
-                               Player 2:
-                               Please roll a dice...
-                               """);
-            randomRoll = rd.nextInt(6)+1;
-            System.out.println("Your roll: " + randomRoll);
-            scorePlayer2 += randomRoll;
-            if(randomRoll == 6){
-                do{
-                    System.out.println("You roll is 6! You get an extra roll!");
-                    randomRoll = rd.nextInt(6)+1;
-                    System.out.println("Your extra roll: " + randomRoll);
-                    scorePlayer2 += randomRoll;
-                }while(randomRoll == 6);
+            while(dice==6);
+
+            do {
+                System.out.println("Player 2 rolls a dice");
+                dice = rand.nextInt(1, 7);
+                player2 += dice;
+                System.out.println("Player 2 rolled a " + dice + " (Current points: " + player2 + ")");
+                if (player2>winScore) {
+                    System.out.print("Player 2 wins with " + player2 + " points");
+                    break game;
+                }
             }
-            System.out.println("Player 2 current marks: " + scorePlayer2);
-            turns++;
-            System.out.println();
-        }
-        System.out.println("Game end!");
-        System.out.println("Player 1 total score: " + scorePlayer1);
-        System.out.println("Player 2 total score: " + scorePlayer2);
-        if(scorePlayer1 > scorePlayer2){
-            System.out.println("Player 1 won!");
-        }else{
-            System.out.println("Player 2 won!");
+            while (dice==6);
         }
         
+       
     }
+    
 }
