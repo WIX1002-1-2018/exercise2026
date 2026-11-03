@@ -4,13 +4,13 @@
  */
 package L04;
 
-/**
- *
- * @author Azzam Aziz
- */
+import java.util.Scanner;
+
 public class W05L02 {
     public static void main(String[] args) {
-        int n = 3;
+        Scanner scanner = new Scanner(System.in);
+        
+        int n = scanner.nextInt();
         int addNumbers = 0;
         for (int i = 1 ; i <= n ; i++){
             for (int j = 1 ; j <= i ; j++){
@@ -18,5 +18,6 @@ public class W05L02 {
             }
         }
         System.out.println(addNumbers);
+        scanner.close();
     }
 }
