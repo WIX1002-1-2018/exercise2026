@@ -1,0 +1,50 @@
+	Scanner input = new Scanner(System.in);
+	
+	System.out.print("Enter a score [negative score to quit]: ");
+	double score = input.nextDouble();
+	
+	double sum = 0;
+	double min = 0;
+	double max = 0;
+	double standard = 0;
+	int count = 0;
+	double avg = 0;
+	double sumSquare = 0;
+	
+	while (score >= 0) {
+		sum += score;
+		sumSquare += score*score;
+		
+		if (count == 0) {
+			min = score;
+			max = score;
+		} else {
+			if (score < min) {
+				min = score;
+			} 
+			if (score > max) {
+				max = score;
+			}
+		}
+		count++;
+		System.out.print("Enter a score {negative score to quit]: ");
+		score = input.nextDouble();
+	}
+	
+	if (count > 0) {
+		System.out.println("Maximum score: " + max);
+		System.out.println("Minimum score: " + min);
+		
+		avg = (double)(sum / count);
+		System.out.printf("Average Score: %.2f%n", avg);
+		
+		if (count > 1) {
+			standard = (double)Math.sqrt((sumSquare - sum/count) / (count-1));
+			System.out.printf("Standard deviation: %.2f%n", standard);
+		} else {
+			System.out.println("Standard deviation: Not enough score");
+		}
+	} else {
+		System.out.println("No valid score. ");
+	}
+	
