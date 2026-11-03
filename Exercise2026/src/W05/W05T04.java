@@ -1,6 +1,6 @@
 package W05;
 
-public class T04 {
+public class W05T04 {
     public static void main(String[] args) {
         String sentence = "Hello World";
         for (int i = sentence.length() - 1; i >= 0; i--) {
