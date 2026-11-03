@@ -1,16 +1,17 @@
 package W05;
+
 import java.util.Scanner;
+
 public class W05T04 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String statement = "";
-        System.out.print("Enter a statement: ");
-        statement = in.nextLine();
-        String reverseStatement = "";
-        for (int i = 0; i <statement.length(); i++){
-            reverseStatement = statement.charAt(i) + reverseStatement;
+        Scanner scanner = new Scanner(System.in);
+
+        String str = scanner.nextLine();
+
+        for (int i = str.length() - 1; i >= 0; i--) {
+            System.out.print(str.charAt(i));
         }
-        System.out.println("The reverse of the statement is: " + reverseStatement);
-        in.close();
+
+        scanner.close();
     }
 }
