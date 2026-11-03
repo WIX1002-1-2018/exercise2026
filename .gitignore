@@ -40,3 +40,13 @@ nbdist/
 
 # VS Code Dev Containers: created on the first "Reopen in Container"
 .devcontainer/devcontainer-lock.json
+
+# Data files made by the W09 file examples (NetBeans runs them in Exercise2026/, VS Code in the repo folder)
+/*.txt
+/*.csv
+/*.dat
+/reports/
+/Exercise2026/*.txt
+/Exercise2026/*.csv
+/Exercise2026/*.dat
+/Exercise2026/reports/
