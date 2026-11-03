@@ -1,5 +1,15 @@
 # WIX1002 Sample code for 2026
 
+[![Course](https://img.shields.io/badge/Course-WIX1002%20Fundamentals%20of%20Programming-2E2D87)](#wix1002-sample-code-for-2026)
+[![Universiti Malaya](https://img.shields.io/badge/Universiti%20Malaya-Sem%201%202026%2F2027-B8902B)](https://fsktm.um.edu.my)
+[![Java](https://img.shields.io/badge/Java-JDK%2025-ED8B00?logo=openjdk&logoColor=white)](https://jdk.java.net/25/)
+[![VS Code](https://img.shields.io/badge/VS%20Code-ready-007ACC)](#how-to-run)
+[![NetBeans](https://img.shields.io/badge/NetBeans-project-1B6AC6?logo=apachenetbeanside&logoColor=white)](#how-to-run)
+[![Dev Container](https://img.shields.io/badge/Dev%20Container-included-2496ED?logo=docker&logoColor=white)](.devcontainer/devcontainer.json)
+[![YouTube](https://img.shields.io/badge/YouTube-Programming%20Essentials-FF0000?logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLHpDJHOFvRCU)
+[![Last commit](https://img.shields.io/github/last-commit/WIX1002-1-2018/exercise2026)](https://github.com/WIX1002-1-2018/exercise2026/commits/main)
+[![Stars](https://img.shields.io/github/stars/WIX1002-1-2018/exercise2026?style=flat)](https://github.com/WIX1002-1-2018/exercise2026/stargazers)
+
 This repository contains solutions and example exercises for WIX1002 (2026), Sem 1 2026/2027.
 
 Contents
@@ -19,6 +29,24 @@ The `src/W01` folder contains introductory Java examples covering basic output a
 - [`W01E07.java`](Exercise2026/src/W01/W01E07.java): Other escape sequences: `\"` (quotes), `\\` (backslash), and `\'` (single quote).
 - [`W01E08.java`](Exercise2026/src/W01/W01E08.java): Creating formatted output with escape sequences (student information report).
 - [`W01T01.java`](Exercise2026/src/W01/W01T01.java): A minimal "Hello World" program (prints "Hello World").
+
+Week 01 videos (Programming Essentials)
+---------------------------------------
+Playlist: https://www.youtube.com/playlist?list=PLHpDJHOFvRCU
+
+| Video | Topic or files used |
+|---|---|
+| [#1 Thinking Like a Programmer: From Problem to Java](https://youtu.be/NbYAiyNEEuA) | problem solving |
+| [#2 Algorithmic Thinking: Clear Steps for People, Computers and AI Agents](https://youtu.be/hGMtItTWWUo) | algorithms |
+| [#3 Computational Thinking: Plan Before You Code](https://youtu.be/hIhc1XcDxQg) | decomposition, patterns, abstraction |
+| [#4 Git and GitHub for Beginners](https://youtu.be/tktRXtLFQUQ) | the course repo workflow |
+| [#5 Pseudocode and Flowcharts](https://youtu.be/mHY8kjneLEk) | sequence, selection, repetition |
+| [#6 How Java Runs: javac, Bytecode and the JVM](https://youtu.be/1Tci_WeNjtI) | compile and run |
+| [#7 Your First Java Program in NetBeans, Line by Line](https://youtu.be/yo15exfEPHw) | a first program |
+| [#8 Get the Course Code: Clone and Run a GitHub Repo in NetBeans](https://youtu.be/BfGDHFgktN0) | W01E01, W01E05, W01E08, W01T01 |
+| [#9 Syntax, Logic and Run-time Errors: How to Debug in NetBeans](https://youtu.be/xgLIfXQ-S9I) | errors and debugging |
+| [#10 Java in VS Code: Run, Debug, Claude Code and a Dev Container](https://youtu.be/8Hh2lBH_iV8) | W01E01, W01E03, W01E05 |
+| [#11 Plan First, Then Prompt: Coding with AI the Right Way](https://youtu.be/mtg2qyUC4hw) | AI agents, plan first |
 
 Summary of Week 02 (W02)
 -------------------------
@@ -106,6 +134,7 @@ The `src/W03` folder contains the selection examples (Chapter 3, Flow of Control
 - [`W03L02.java`](Exercise2026/src/W03/W03L02.java): Lab 2, question 2: monthly car loan payment, two decimal places. Answer by [Ethan (@ETHAN071104)](https://github.com/ETHAN071104), accepted from [PR #5](https://github.com/WIX1002-1-2018/exercise2026/pull/5).
 - [`W03L03.java`](Exercise2026/src/W03/W03L03.java): Lab 2, question 3: three random numbers from 10 to 50, their sum and average (two decimal places). Answer by [Faiz (@faizmibadurrahman)](https://github.com/faizmibadurrahman), accepted from [PR #14](https://github.com/WIX1002-1-2018/exercise2026/pull/14).
 - [`W03L04.java`](Exercise2026/src/W03/W03L04.java): Lab 2, question 4: seconds to hours, minutes and seconds (hh:mm:ss). Answer by [Azzam (@azzamaziz-2026)](https://github.com/azzamaziz-2026), accepted from [PR #11](https://github.com/WIX1002-1-2018/exercise2026/pull/11).
+- [`W03L05.java`](Exercise2026/src/W03/W03L05.java): Lab 2, question 5: a random number from 0 to 10000 and the sum of its digits, with `/` and `%` only. Answer by [Mahjabin (@MarziaMahjabin)](https://github.com/MarziaMahjabin), accepted from [PR #18](https://github.com/WIX1002-1-2018/exercise2026/pull/18).
 - [`W03L06.java`](Exercise2026/src/W03/W03L06.java): Lab 2, question 6: energy needed to heat water (grams and Fahrenheit, as in the lab sample). Answer by [Firhan (@Firharish21)](https://github.com/Firharish21), accepted from [PR #6](https://github.com/WIX1002-1-2018/exercise2026/pull/6).
 - [`W03T06.java`](Exercise2026/src/W03/W03T06.java): Tutorial 2, question 6 (solved in the T2 tutorial, 20 Oct 2026): read the diameter, print the circumference with `Math.PI`, three decimal places.
 - [`W03T07.java`](Exercise2026/src/W03/W03T07.java): Tutorial 2, question 7 (solved in the T2 tutorial, 20 Oct 2026): convert inches to meters (1 inch = 2.54 cm), two decimal places.
@@ -151,6 +180,12 @@ The `src/W04` folder contains the repetition examples (Chapter 4, Flow of Contro
 - [`W04E21.java`](Exercise2026/src/W04/W04E21.java): Try it answer for video #21 (try it yourself first): read words until the user types stop, then print how many words were typed.
 - [`W04E22.java`](Exercise2026/src/W04/W04E22.java): Try it answer for video #22 (try it yourself first): with a for loop, print every fourth year from 2028 to 2048, then how many years were printed.
 - [`W04E23.java`](Exercise2026/src/W04/W04E23.java): Try it answer for video #23 (try it yourself first): a countdown 5 4 3 2 1 Lift off!, checking the first and the last pass.
+- [`W04L01.java`](Exercise2026/src/W04/W04L01.java): Lab 3, question 1: a simple calculator; two integers and an operator (+, -, *, /, %) read with `charAt(0)`. Answer by [@songwei07](https://github.com/songwei07), accepted from [PR #29](https://github.com/WIX1002-1-2018/exercise2026/pull/29).
+- [`W04L02.java`](Exercise2026/src/W04/W04L02.java): Lab 3, question 2: a random integer from 0 to 5 shown in words (for example, 2 is two). Answer by [Wong Yik Sheng (@tms-tm)](https://github.com/tms-tm), accepted from [PR #23](https://github.com/WIX1002-1-2018/exercise2026/pull/23).
+- [`W04L03.java`](Exercise2026/src/W04/W04L03.java): Lab 3, question 3: commission from the sales volume (5%, 7.5%, 10% or 12.5%), two decimal places. Answer by [Elin Lim Yok Ling (@26006095)](https://github.com/26006095), accepted from [PR #25](https://github.com/WIX1002-1-2018/exercise2026/pull/25).
+- [`W04L04.java`](Exercise2026/src/W04/W04L04.java): Lab 3, question 4: a two-player dice game; each player rolls twice and the higher total wins (a tie is handled). Answer by [Tan Yong Sheng (@Ystan35)](https://github.com/Ystan35), accepted from [PR #26](https://github.com/WIX1002-1-2018/exercise2026/pull/26).
+- [`W04L05.java`](Exercise2026/src/W04/W04L05.java): Lab 3, question 5: Cramer's rule for ax + by = e and cx + dy = f, with "The equation has no solution" when ad - bc is 0. Answer by [Mah Yun Xian (@yxPYmah)](https://github.com/yxPYmah), accepted from [PR #37](https://github.com/WIX1002-1-2018/exercise2026/pull/37).
+- [`W04L06.java`](Exercise2026/src/W04/W04L06.java): Lab 3, question 6: is a point (x, y) inside, on or outside a circle centred at (0, 0)? Answer by [Mahjabin (@MarziaMahjabin)](https://github.com/MarziaMahjabin), accepted from [PR #36](https://github.com/WIX1002-1-2018/exercise2026/pull/36).
 
 Week 04 videos (Programming Essentials)
 ---------------------------------------
@@ -158,10 +193,10 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #20 while Loops and Tracing | W04E01 to W04E04 | W04E20 |
-| #21 Stopping a Loop: Sentinel, Yes/No, do-while, Safe Input | W04E05 to W04E09 | W04E21 |
-| #22 for Loops, Choosing a Loop, Guessing Game | W04E10 to W04E14 | W04E22 |
-| #23 Loop Mistakes and an AI Check | W04E15, W04E16, W04E18 (AI agent: the bug), W04E19 (the fix) | W04E23 |
+| [#20 while Loops and Tracing](https://youtu.be/_uGscHGTRB0) | W04E01 to W04E04 | W04E20 |
+| [#21 Stopping a Loop: Sentinel, Yes/No, do-while, Safe Input](https://youtu.be/G3jM-xdFwVw) | W04E05 to W04E09 | W04E21 |
+| [#22 for Loops, Choosing a Loop, Guessing Game](https://youtu.be/7_gdlAP7SoE) | W04E10 to W04E14 | W04E22 |
+| [#23 Loop Mistakes and an AI Check](https://youtu.be/ckwJhZjnCq0) | W04E15, W04E16, W04E18 (AI agent: the bug), W04E19 (the fix) | W04E23 |
 
 Self-study (in the lecture slides, not in a video): W04E17 (bus card worked example).
 
@@ -196,6 +231,8 @@ The `src/W05` folder contains the repetition examples, part 2 (Chapter 4, Flow o
 - [`W05E25.java`](Exercise2026/src/W05/W05E25.java): Try it answer for video #26 (try it yourself first): Euclid's algorithm for the GCD of 252 and 105, counting the steps.
 - [`W05E26.java`](Exercise2026/src/W05/W05E26.java): Try it answer for video #27 (try it yourself first): the seat chart with the rule (r * s) % 5 == 0; predict the free seats first.
 - [`W05E27.java`](Exercise2026/src/W05/W05E27.java): Try it answer for video #28 (try it yourself first): a right-aligned triangle with one loop and String.repeat.
+- [`W05T03.java`](Exercise2026/src/W05/W05T03.java): Tutorial 4, question 3: the first ten values of the Fibonacci sequence (f1 = 1, f2 = 1, fn = fn-1 + fn-2). Answer by [@laihweehwee](https://github.com/laihweehwee), accepted from [PR #48](https://github.com/WIX1002-1-2018/exercise2026/pull/48).
+- [`W05T04.java`](Exercise2026/src/W05/W05T04.java): Tutorial 4, question 4: read a line and display it in reverse order, using `length()`. Answer by [Tan Yong Sheng (@Ystan35)](https://github.com/Ystan35), accepted from [PR #45](https://github.com/WIX1002-1-2018/exercise2026/pull/45).
 
 Week 05 videos (Programming Essentials)
 ---------------------------------------
@@ -203,11 +240,11 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #24 Nested Loops and Patterns | W05E01 to W05E06 | W05E23 |
-| #25 break, continue and Labels | W05E07 to W05E12 | W05E24 |
-| #26 GCD and Numeric Errors in Loops | W05E13 to W05E15 | W05E25 |
-| #27 A Seat Chart and an AI Check | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) | W05E26 |
-| #28 Modern Java Loops | W05E19 to W05E22 | W05E27 |
+| [#24 Nested Loops and Patterns](https://youtu.be/t9gdz4lT_bc) | W05E01 to W05E06 | W05E23 |
+| [#25 break, continue and Labels](https://youtu.be/71AgwbBf7JU) | W05E07 to W05E12 | W05E24 |
+| [#26 GCD and Numeric Errors in Loops](https://youtu.be/h7sFPhoupVw) | W05E13 to W05E15 | W05E25 |
+| [#27 A Seat Chart and an AI Check](https://youtu.be/9o6WkdJoaNs) | W05E16, W05E17 (AI agent: the bug), W05E18 (the fix) | W05E26 |
+| [#28 Modern Java Loops](https://youtu.be/2IaC1u2Aduw) | W05E19 to W05E22 | W05E27 |
 
 Summary of Week 06 (W06)
 -------------------------
@@ -309,6 +346,213 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 | #38 Methods and Arrays | W07E13 to W07E18 | W07E32 |
 | #39 Recursion | W07E20 to W07E23 | W07E33 |
 | #40 Modern Java Methods and an AI Check | W07E24, W07E25, W07E27 (AI agent: the bug), W07E28 (the fix) | W07E34 |
+
+Summary of Week 09 (W09)
+-------------------------
+The `src/W09` folder contains the file input and output examples (Chapter 7, File Input and Output): text files, CSV data, buffered I/O, binary files, the `File` class and a modern `java.nio.file` example, in the same order as the Week 9 lecture. Each program makes its own sample data, so any file runs on its own. The data files are created in the working folder (NetBeans: `Exercise2026/`; VS Code: the repository folder) and are ignored by Git.
+
+- [`W09E01.java`](Exercise2026/src/W09/W09E01.java): Why files: a value in a variable is lost when the program ends; save it to `steps.txt` with `PrintWriter`.
+- [`W09E02.java`](Exercise2026/src/W09/W09E02.java): Write a text file: `PrintWriter` + `FileOutputStream`, with `println` and `printf` (attendance list).
+- [`W09E03.java`](Exercise2026/src/W09/W09E03.java): Where did the file go? The working folder (NetBeans: the project folder; VS Code: the opened folder), `getAbsolutePath()`, and `/` or `\\` in paths.
+- [`W09E04.java`](Exercise2026/src/W09/W09E04.java): Overwrite or append: `new FileOutputStream(name, true)` adds to the end. Run it two or three times.
+- [`W09E05.java`](Exercise2026/src/W09/W09E05.java): Forgetting `close()`: the file stays empty (0 bytes) until it is closed. Try it: remove `close()`.
+- [`W09E06.java`](Exercise2026/src/W09/W09E06.java): Read a text file line by line: `Scanner` on a `File`, `hasNextLine()`, `nextLine()`.
+- [`W09E07.java`](Exercise2026/src/W09/W09E07.java): Read numbers from a file with `hasNextInt()` and `nextInt()` (a week of step counts).
+- [`W09E08.java`](Exercise2026/src/W09/W09E08.java): Read simple comma-separated records (a CSV file without quotes): skip the header, `split(",")`, `Integer.parseInt`, `Double.parseDouble` (a daily steps and km log).
+- [`W09E09.java`](Exercise2026/src/W09/W09E09.java): Never trust the data in a file: each record is checked with a small `Scanner` (`hasNextInt`, `hasNextDouble`, sensible ranges) and bad lines are skipped instead of crashing.
+- [`W09E10.java`](Exercise2026/src/W09/W09E10.java): `BufferedReader` with `FileReader`: `readLine()` returns `null` at the end of the file.
+- [`W09E11.java`](Exercise2026/src/W09/W09E11.java): `BufferedWriter` with `FileWriter`: `write()` and `newLine()`.
+- [`W09E12.java`](Exercise2026/src/W09/W09E12.java): Closing safely: try-with-resources (Java 7) and the older `try`/`finally`.
+- [`W09E13.java`](Exercise2026/src/W09/W09E13.java): Methods for files: `saveScores(file, int[])` and `loadScores(file)` (arrays + methods + files).
+- [`W09E14.java`](Exercise2026/src/W09/W09E14.java): Write a binary file with `ObjectOutputStream`: `writeUTF`, `writeInt`, `writeDouble`. The file does not label the values, so the reader must know the types and the order; the byte count is explained.
+- [`W09E15.java`](Exercise2026/src/W09/W09E15.java): Read a binary file in the same order and with the same types. Try it: read in the wrong order.
+- [`W09E16.java`](Exercise2026/src/W09/W09E16.java): Read binary records until the end: `EOFException` stops the loop.
+- [`W09E17.java`](Exercise2026/src/W09/W09E17.java): Text or binary? The same 1000 numbers saved both ways and the file sizes compared.
+- [`W09E18.java`](Exercise2026/src/W09/W09E18.java): Optional preview (objects come in Week 10): save a whole array with `writeObject` and read it back with `readObject` and a cast.
+- [`W09E19.java`](Exercise2026/src/W09/W09E19.java): The `File` class: `createNewFile`, `getName`, `getPath`, `exists`, `isFile`, `isDirectory`, `length`, `canRead`, `canWrite`, `lastModified`.
+- [`W09E20.java`](Exercise2026/src/W09/W09E20.java): Folders: `mkdirs()`, `listFiles()` (checked for `null`), `isDirectory()`.
+- [`W09E21.java`](Exercise2026/src/W09/W09E21.java): Rename and delete two demo files in its own `w09_demo` folder (it stops if either is already there): `renameTo()` and `delete()` return true or false; the program checks the result before going on.
+- [`W09E22.java`](Exercise2026/src/W09/W09E22.java): Common mistakes: `new Scanner("marks.txt")` reads the text, not the file; a missing file (check `exists()` first). Try it: open a missing file.
+- [`W09E23.java`](Exercise2026/src/W09/W09E23.java): Modern Java (good to know): `Path.of`, `Files.writeString`, `Files.readString`, `Files.readAllLines`, `Files.size` (Java 7 and 11), with a text block.
+- [`W09E24.java`](Exercise2026/src/W09/W09E24.java): Worked example: an expense tracker that appends to `expenses.csv` (always with a dot as the decimal point) and shows all expenses and the total; the typed amount and every saved amount are checked (damaged lines are skipped); IPO in the comments.
+- [`W09E25.java`](Exercise2026/src/W09/W09E25.java): INTENTIONALLY FAULTY (AI agent check): saves three names and reads them back, but reads 0 names.
+- [`W09E26.java`](Exercise2026/src/W09/W09E26.java): Fix of W09E25: close the writer (try-with-resources) before reading the file.
+- [`W09E27.java`](Exercise2026/src/W09/W09E27.java): Try it answer for video #41 (try it yourself first): write three to-do items to `todo.txt`, then open it again in append mode and add a fourth; `checkError()` after each close.
+- [`W09E28.java`](Exercise2026/src/W09/W09E28.java): Try it answer for video #42 (try it yourself first): count how many passed (50 or more) and failed in `quiz_marks.csv` (name,mark), skipping a line whose mark is not a whole number from 0 to 100; a sample file is made only if none is there.
+- [`W09E29.java`](Exercise2026/src/W09/W09E29.java): Try it answer for video #43 (try it yourself first): methods `saveLines(file, String[])` with BufferedWriter and `lastLine(file)` with BufferedReader (null for an empty file), both with try-with-resources.
+- [`W09E30.java`](Exercise2026/src/W09/W09E30.java): Try it answer for video #44 (try it yourself first): save three cities and temperatures in a binary file, read them back until the end of the file, and print the cities above 30.0 degrees and how many.
+- [`W09E31.java`](Exercise2026/src/W09/W09E31.java): Try it answer for video #45 (try it yourself first): make a folder, write `notes.txt`, print its size and rename it, checking every result (mkdirs, checkError, renameTo).
+
+Week 09 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 5 Dec 2026. Links are added when the videos are published.
+
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #41 Why Files? Writing Your First Text File | W09E01 to W09E05 | W09E27 |
+| #42 Reading Text Files: Lines, Numbers and CSV | W09E06 to W09E09 | W09E28 |
+| #43 Buffered I/O, try-with-resources and File Methods | W09E10 to W09E13 | W09E29 |
+| #44 Binary Files: Saving and Loading Data | W09E14 to W09E18 | W09E30 |
+| #45 The File Class, Modern Files API and an AI Check | W09E19 to W09E23, W09E25 (AI agent: the bug), W09E26 (the fix) | W09E31 |
+
+
+Summary of Week 10 (W10)
+-------------------------
+The `src/W10` folder contains the class examples (Chapter 8, Class), in the same order as the Week 10 lecture. One running example, a parcel delivery app, grows step by step. Each helper class sits in the same file as its example (no `public`, named with the file number, e.g. `ParcelE02`), so every file runs on its own; `W10Parcel.java` with `W10E10` shows the usual layout of one public class per file.
+
+- [`W10E01.java`](Exercise2026/src/W10/W10E01.java): Why classes: three parcels in parallel arrays; swapping only one array mixes up the data.
+- [`W10E02.java`](Exercise2026/src/W10/W10E02.java): A first class: fields, `new`, the dot; two objects keep separate values.
+- [`W10E03.java`](Exercise2026/src/W10/W10E03.java): Methods in a class: `fee()` and `describe()` use the object's own fields.
+- [`W10E04.java`](Exercise2026/src/W10/W10E04.java): References: `b = a` gives two names for one object; `==` compares references; `null`.
+- [`W10E05.java`](Exercise2026/src/W10/W10E05.java): Constructors: default values (0, false, null), a constructor with parameters, `this.weightKg = weightKg`.
+- [`W10E06.java`](Exercise2026/src/W10/W10E06.java): Constructor overloading, `this(...)`, and a copy constructor (a copy vs an alias).
+- [`W10E07.java`](Exercise2026/src/W10/W10E07.java): Why `private`: a public field accepts -5 kg; a setter that checks the value.
+- [`W10E08.java`](Exercise2026/src/W10/W10E08.java): Getters and setters: `getX`, `setX`, `isX`, a read-only `final` tracking number, `markDelivered()`.
+- [`W10E09.java`](Exercise2026/src/W10/W10E09.java): `toString` and `equals`: readable printing; `==` vs `equals` (same tracking number).
+- [`W10Parcel.java`](Exercise2026/src/W10/W10Parcel.java) and [`W10E10.java`](Exercise2026/src/W10/W10E10.java): Two files, one package: one public class per file, `package W10;`, `import` from another package.
+- [`W10E11.java`](Exercise2026/src/W10/W10E11.java): `static`: one shared counter gives each new parcel the next tracking number.
+- [`W10E12.java`](Exercise2026/src/W10/W10E12.java): `static final` constants and static methods (no object needed, like `Math.max`).
+- [`W10E13.java`](Exercise2026/src/W10/W10E13.java): Method overloading: `fee(double)`, `fee(double, boolean)`, `fee(int grams)`; why `fee(1)` means 1 gram.
+- [`W10E14.java`](Exercise2026/src/W10/W10E14.java): An array of objects: every slot starts as `null`; total, heaviest, not delivered.
+- [`W10E15.java`](Exercise2026/src/W10/W10E15.java): Objects and methods: a method can change the object it receives, but not the caller's variable.
+- [`W10E16.java`](Exercise2026/src/W10/W10E16.java): Objects inside objects: a delivery route holds an array of parcels.
+- [`W10E17.java`](Exercise2026/src/W10/W10E17.java): Objects and files: save parcels as CSV lines and build new objects from them (`route.csv`).
+- [`W10E18.java`](Exercise2026/src/W10/W10E18.java): Wrapper classes: `Integer.MAX_VALUE`, `parseInt`, autoboxing, `==` vs `equals` on `Integer` (127 and 128).
+- [`W10E19.java`](Exercise2026/src/W10/W10E19.java): `Character` methods: check a tracking code (two capital letters, five digits).
+- [`W10E20.java`](Exercise2026/src/W10/W10E20.java): Modern Java (good to know): a `record` (Java 16) with a compact constructor.
+- [`W10E21.java`](Exercise2026/src/W10/W10E21.java): Three common mistakes (Try it): `null` before `new`, an instance field in `static main`, `==` on objects.
+- [`W10E22.java`](Exercise2026/src/W10/W10E22.java): Worked example (self-study): a club membership list with a static id, an array of members and a file.
+- [`W10E23.java`](Exercise2026/src/W10/W10E23.java): AI agent check, intentionally faulty: a constructor that assigns each parameter to itself (study it, do not copy it).
+- [`W10E24.java`](Exercise2026/src/W10/W10E24.java): The fix with `this`, and a test line.
+- `W10E25.java` to `W10E30.java`: Try it answers for videos #46 to #51 (try each task yourself first).
+
+Week 10 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 12 Dec 2026. Links are added when the videos are published.
+
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #46 Classes and Objects | W10E01 to W10E04 | W10E25 |
+| #47 Constructors and this | W10E05, W10E06, W10Parcel and W10E10 | W10E26 |
+| #48 Encapsulation: private, Getters, Setters, toString and equals | W10E07 to W10E09 | W10E27 |
+| #49 static and Method Overloading | W10E11 to W10E13 | W10E28 |
+| #50 Objects Working Together: Arrays, Methods and Files | W10E14 to W10E17 | W10E29 |
+| #51 Wrapper Classes, Records and an AI Check | W10E18 to W10E20, W10E23 (AI agent: the bug), W10E24 (the fix) | W10E30 |
+
+Summary of Week 11 (W11)
+-------------------------
+The `src/W11` folder contains the inheritance examples (Chapter 9, Inheritance), in the same order as the Week 11 videos. The Week 10 parcel app continues: `Parcel` → `ExpressParcel`, `FragileParcel`, `SameDayParcel`. Helper classes sit in the same file as their example, so every file runs on its own; `W11Parcel.java` (public, own file) and the package `W11.depot` show `protected` across packages. Each "Try it" is a small edit that should NOT compile: make it, read the compiler message, then undo it.
+
+- [`W11E01.java`](Exercise2026/src/W11/W11E01.java): Why inheritance: a copy-pasted express class misses a fee change (RM 15.40 instead of RM 16.40).
+- [`W11E02.java`](Exercise2026/src/W11/W11E02.java): `extends`: the subclass inherits the methods (not the private fields) and adds one field; the UML arrow.
+- [`W11E03.java`](Exercise2026/src/W11/W11E03.java): Private fields stay private: the subclass reads the weight through a getter (Try it: use the field).
+- [`W11E04.java`](Exercise2026/src/W11/W11E04.java): Constructor chaining: `super(...)` first; three levels print from the top class down.
+- [`W11E05.java`](Exercise2026/src/W11/W11E05.java): Every chain must reach a superclass constructor: `super(...)` directly or through `this(...)`.
+- [`W11E06.java`](Exercise2026/src/W11/W11E06.java): Overriding `fee()` with `super.fee()` plus a surcharge (express) or insurance (fragile).
+- [`W11E07.java`](Exercise2026/src/W11/W11E07.java): `@Override`: a misspelled `fees()` compiles silently without it (Try it: add `@Override`).
+- [`W11E08.java`](Exercise2026/src/W11/W11E08.java): Overriding vs overloading: `fee()` and `fee(boolean insured)`.
+- [`W11E09.java`](Exercise2026/src/W11/W11E09.java): Override rules: covariant return (`self()`), no weaker access, a private method is not overridden.
+- [`W11E10.java`](Exercise2026/src/W11/W11E10.java): The `Object` class: `getClass()` vs `instanceof`, and `null instanceof`.
+- [`W11E11.java`](Exercise2026/src/W11/W11E11.java): `toString` overridden in the parent and extended with `super.toString()` in the child.
+- [`W11E12.java`](Exercise2026/src/W11/W11E12.java): The standard `equals(Object)` and `hashCode()`: equal tracking numbers mean equal parcels.
+- [`W11Parcel.java`](Exercise2026/src/W11/W11Parcel.java) and [`W11E13.java`](Exercise2026/src/W11/W11E13.java): package access and `protected` inside the package `W11`.
+- [`depot/W11E14.java`](Exercise2026/src/W11/depot/W11E14.java): another package (`W11.depot`): a subclass uses the protected field through `this` (Try it: three edits that do not compile).
+- [`W11E15.java`](Exercise2026/src/W11/W11E15.java): `final` field, `final` method and `final` class (`String` is final).
+- [`W11E16.java`](Exercise2026/src/W11/W11E16.java): Modern Java (good to know): a `sealed` class (Java 17) with `permits`, `final` and `non-sealed` subclasses.
+- [`W11E17.java`](Exercise2026/src/W11/W11E17.java): AI agent check, intentionally faulty: `tostring()` without `@Override` (study it, do not copy it).
+- [`W11E18.java`](Exercise2026/src/W11/W11E18.java): The fix: `@Override public String toString()`.
+- [`W11E19.java`](Exercise2026/src/W11/W11E19.java): Guided exercise: is-a (`extends`) or has-a (a field).
+- [`W11E20.java`](Exercise2026/src/W11/W11E20.java): Guided exercise: a field declared again in the subclass hides the parent's field (prints 0.0).
+- `W11E25.java` to `W11E28.java`, `depot/W11E29.java`, `W11E30.java`: Try it answers for videos #52 to #57 (try each task yourself first; write your own version in your own project, since these class names are already in the repo).
+
+Week 11 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 19 Dec 2026. Links are added when the videos are published.
+
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #52 Inheritance: Why extends | W11E01 to W11E03 | W11E25 |
+| #53 Constructors and super | W11E04, W11E05 | W11E26 |
+| #54 Overriding and @Override | W11E06 to W11E09 | W11E27 |
+| #55 The Object Class: getClass, toString and equals | W11E10 to W11E12 | W11E28 |
+| #56 protected and Packages | W11Parcel, W11E13, depot/W11E14 | depot/W11E29 |
+| #57 final, sealed and an AI Check | W11E15 to W11E18 | W11E30 |
+
+Summary of Week 12 (W12)
+-------------------------
+The `src/W12` folder contains the polymorphism examples (Chapter 10, Polymorphism), in the same order as the Week 12 lecture. The parcel app continues: one variable or one list holds every kind of parcel, and each object runs its own version of a method. Helper classes sit in the same file as their example, so every file runs on its own. Each "Try it" is a small edit: make it, read the compiler message (or the run-time error), then undo it.
+
+- [`W12E01.java`](Exercise2026/src/W12/W12E01.java): One `ParcelE01` variable, two kinds of parcel: `fee()` follows the object.
+- [`W12E02.java`](Exercise2026/src/W12/W12E02.java): A polymorphic route: one array, four kinds of parcel, one loop, the total.
+- [`W12E03.java`](Exercise2026/src/W12/W12E03.java): The declared type decides what may be called (Try it: an express-only method through a parcel variable).
+- [`W12E04.java`](Exercise2026/src/W12/W12E04.java): Special cases: a private method is not overridden, a static method is hidden, a final method stops overriding.
+- [`W12E05.java`](Exercise2026/src/W12/W12E05.java): Downcasting with a cast (Try it: a wrong cast gives `ClassCastException`; no cast gives a compiler error).
+- [`W12E06.java`](Exercise2026/src/W12/W12E06.java): `instanceof` and the pattern form `p instanceof ExpressParcelE06 e` (Java 16).
+- [`W12E07.java`](Exercise2026/src/W12/W12E07.java): An abstract class with an abstract `fee()`; three concrete delivery items (Try it: `new` on the abstract class).
+- [`W12E08.java`](Exercise2026/src/W12/W12E08.java): Abstract class rules: a constructor and a normal method next to the abstract one (Try it: forget `fee()`).
+- [`W12E09.java`](Exercise2026/src/W12/W12E09.java): An interface: a parcel and a tracking kiosk in one `TrackableE09[]`.
+- [`W12E10.java`](Exercise2026/src/W12/W12E10.java): One class, two interfaces, and an interface constant.
+- [`W12E11.java`](Exercise2026/src/W12/W12E11.java): Interface rules: a `default` method; the implementation must be `public` (Try it).
+- [`W12E12.java`](Exercise2026/src/W12/W12E12.java): `Comparable<ParcelE12>`: natural order by tracking number, consistent with `equals`; `Arrays.sort`.
+- [`W12E13.java`](Exercise2026/src/W12/W12E13.java): `ArrayList<ParcelE13>`: `add`, `get`, `size`, for-each, `sort(null)`, `set`, `remove`.
+- [`W12E14.java`](Exercise2026/src/W12/W12E14.java): Copying: two names for one object vs a copy constructor; `clone()` built on it.
+- [`W12E15.java`](Exercise2026/src/W12/W12E15.java): A member inner class: each `Stop` belongs to one route.
+- [`W12E16.java`](Exercise2026/src/W12/W12E16.java): A static nested class and a local class.
+- [`W12E17.java`](Exercise2026/src/W12/W12E17.java): A `Comparator` by fee: first an anonymous class, then a lambda.
+- [`W12E18.java`](Exercise2026/src/W12/W12E18.java): Modern Java (good to know): `switch` with type patterns over a sealed family (Java 21).
+- [`W12E19.java`](Exercise2026/src/W12/W12E19.java): AI agent check, intentionally faulty: an unchecked cast stops with `ClassCastException` (study it, do not copy it).
+- [`W12E20.java`](Exercise2026/src/W12/W12E20.java): The fix: an overridden `promise()`, no cast.
+- [`W12E21.java`](Exercise2026/src/W12/W12E21.java): Guided exercise: abstract class or interface?
+- [`W12E22.java`](Exercise2026/src/W12/W12E22.java): Guided exercise: never compare by subtraction; use `Double.compare`.
+
+Week 12 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 26 Dec 2026. Links are added when the videos are published.
+
+| Video | Files used |
+|---|---|
+| #58 Polymorphism: One Variable, Many Objects | W12E01 to W12E03 |
+| #59 Casting, instanceof and an AI Check | W12E05, W12E06, W12E19, W12E20 |
+| #60 Abstract Classes | W12E07, W12E08 |
+| #61 Interfaces | W12E09 to W12E11 |
+| #62 Comparable and ArrayList | W12E12, W12E13 |
+| #63 Nested Classes and Lambdas | W12E15 to W12E17 |
+
+Summary of Week 13 (W13)
+-------------------------
+The `src/W13` folder contains the exception examples (Chapter 11, Exception Handling), in the same order as the Week 13 lecture. The parcel app continues: reading a crash, catching it, safe input, clean-up with finally and try-with-resources, throwing and declaring exceptions, and two custom exceptions. W13E01 and W13E16 stop with an exception on purpose. W13E03, W13E09, W13E11 and W13E18 write a small file in the project folder before reading it. Each "Try it" is a small edit: make it, read the compiler message, then undo it.
+
+- [`W13E01.java`](Exercise2026/src/W13/W13E01.java): Reading a stack trace: the Week 12 cast stops with ClassCastException (stops on purpose).
+- [`W13E02.java`](Exercise2026/src/W13/W13E02.java): try-catch: around the call the loop stops; inside the loop only the bad parcel is skipped.
+- [`W13E03.java`](Exercise2026/src/W13/W13E03.java): Checked or unchecked: an IOException must be caught or declared (Try it: remove the try).
+- [`W13E04.java`](Exercise2026/src/W13/W13E04.java): Parsing text with Double.parseDouble; "NaN" parses, so check the weight rule too.
+- [`W13E05.java`](Exercise2026/src/W13/W13E05.java): A retry loop: ask again until the weight is valid.
+- [`W13E06.java`](Exercise2026/src/W13/W13E06.java): Several catch blocks; only the first match runs (Try it: put Exception first).
+- [`W13E07.java`](Exercise2026/src/W13/W13E07.java): Multi-catch with unrelated types (Try it: a parent and child type).
+- [`W13E08.java`](Exercise2026/src/W13/W13E08.java): finally runs when control leaves try/catch, also before a return.
+- [`W13E09.java`](Exercise2026/src/W13/W13E09.java): try-with-resources: close() is called, in reverse order.
+- [`W13E10.java`](Exercise2026/src/W13/W13E10.java): throw: a constructor refuses a weight that is not finite and greater than 0.
+- [`W13E11.java`](Exercise2026/src/W13/W13E11.java): throws: an IOException travels back from readFirstLine to main.
+- [`W13E12.java`](Exercise2026/src/W13/W13E12.java): A custom checked exception: overweight parcels (Try it: remove the try).
+- [`W13E13.java`](Exercise2026/src/W13/W13E13.java): A custom unchecked exception: invalid tracking numbers.
+- [`W13E14.java`](Exercise2026/src/W13/W13E14.java): AI agent check, intentionally faulty: an empty catch hides the problem and the total is wrong (study it, do not copy it).
+- [`W13E15.java`](Exercise2026/src/W13/W13E15.java): The fix: catch inside the loop, report and count rejected lines.
+- [`W13E16.java`](Exercise2026/src/W13/W13E16.java): Modern Java (good to know): helpful NullPointerException messages (Java 14; stops on purpose).
+- [`W13E17.java`](Exercise2026/src/W13/W13E17.java): Guided exercise: exception or if? A bounds check for an index.
+- [`W13E18.java`](Exercise2026/src/W13/W13E18.java): Guided exercise: nested try (file outside, each line inside).
+- `W13E25.java` to `W13E29.java`: Try it answers for videos #64 to #68 (try each task yourself first; write your own version in your own project, since these class names are already in the repo).
+
+Week 13 videos (Programming Essentials)
+---------------------------------------
+Planned for Sat 2 Jan 2027. Links are added when the videos are published.
+
+| Video | Files used | Try it answer (try first) |
+|---|---|---|
+| #64 Exceptions: Reading a Stack Trace and try-catch | W13E01, W13E02 | W13E25 |
+| #65 Safe Input: Parsing and a Retry Loop | W13E04, W13E05 | W13E26 |
+| #66 finally and try-with-resources | W13E08, W13E09 | W13E27 |
+| #67 throw, throws and a Custom Exception | W13E10 to W13E13 | W13E28 |
+| #68 An AI Check: the Empty catch | W13E14 to W13E16 | W13E29 |
 
 How to run
 ----------

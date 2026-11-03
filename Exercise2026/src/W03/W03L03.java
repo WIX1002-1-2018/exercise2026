@@ -1,29 +1,23 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package W03;
+
 import java.util.Random;
-/**
- *
- * @author Faiz I
- */
+
+// Lab 2, question 3: three random numbers from 10 to 50, their sum and their average (two decimal places).
+// Answer by Faiz (@faizmibadurrahman), PR #14.
 public class W03L03 {
     public static void main(String[] args) {
         Random random = new Random();
-        // Generate three random numbers between 10 and 50 (inclusive)
+
+        // nextInt(41) gives 0 to 40; adding 10 gives 10 to 50 (both ends included)
         int num1 = random.nextInt(41) + 10;
         int num2 = random.nextInt(41) + 10;
         int num3 = random.nextInt(41) + 10;
 
-        // Calculate sum and average
-        double sum = num1 + num2 + num3;
-        double average = sum / 3.0;
+        int sum = num1 + num2 + num3;
+        double average = sum / 3.0;                       // 3.0, not 3: avoids integer division
 
-        System.out.println("Random Numbers: " + num1 + ", " + num2 + ", " + num3);
+        System.out.println("Random numbers: " + num1 + ", " + num2 + ", " + num3);
         System.out.println("Sum: " + sum);
-        System.out.printf("Average: %.2f\n", average);
+        System.out.printf("Average: %.2f%n", average);
     }
 }
-
-
