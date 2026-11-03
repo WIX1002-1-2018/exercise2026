@@ -46,7 +46,6 @@ public class W05L03 {
             int squareTotalScore = totalScore * totalScore;
             double variance = ((double)sumSquare - ((double)(squareTotalScore)/enterCount))/ (double)(enterCount - 1);
             double sdScore = Math.sqrt(variance);
-            System.out.println(variance);
             System.out.println("Minimum Score: " + minScore);
             System.out.println("Maximum Score: " + maxScore);
             System.out.printf("Average Score: %.2f%n", aveScore);
