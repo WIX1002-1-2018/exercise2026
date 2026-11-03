@@ -231,6 +231,7 @@ The `src/W05` folder contains the repetition examples, part 2 (Chapter 4, Flow o
 - [`W05E25.java`](Exercise2026/src/W05/W05E25.java): Try it answer for video #26 (try it yourself first): Euclid's algorithm for the GCD of 252 and 105, counting the steps.
 - [`W05E26.java`](Exercise2026/src/W05/W05E26.java): Try it answer for video #27 (try it yourself first): the seat chart with the rule (r * s) % 5 == 0; predict the free seats first.
 - [`W05E27.java`](Exercise2026/src/W05/W05E27.java): Try it answer for video #28 (try it yourself first): a right-aligned triangle with one loop and String.repeat.
+- [`W05T03.java`](Exercise2026/src/W05/W05T03.java): Tutorial 4, question 3: the first ten values of the Fibonacci sequence (f1 = 1, f2 = 1, fn = fn-1 + fn-2). Answer by [@laihweehwee](https://github.com/laihweehwee), accepted from [PR #48](https://github.com/WIX1002-1-2018/exercise2026/pull/48).
 - [`W05T04.java`](Exercise2026/src/W05/W05T04.java): Tutorial 4, question 4: read a line and display it in reverse order, using `length()`. Answer by [Tan Yong Sheng (@Ystan35)](https://github.com/Ystan35), accepted from [PR #45](https://github.com/WIX1002-1-2018/exercise2026/pull/45).
 
 Week 05 videos (Programming Essentials)
