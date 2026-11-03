@@ -627,5 +627,6 @@ Notes
 - These examples are small, self-contained learning exercises intended for beginners.
 - Learn Fork and Pull Request. Try to add a new file and submit pull request.
 - If you help to contribute, your name will be listed as one of the contributors.
+- Lab and tutorial answers are accepted only when the answer is correct AND the file name is correct: `Exercise2026/src/W0N/W0NL##.java` (lab) or `W0NT##.java` (tutorial), with `package W0N;` and the public class named like the file. The first correct answer for each question is accepted, one per student per week; lab answers are accepted after the lab is discussed in class.
 
 Version 1.0
