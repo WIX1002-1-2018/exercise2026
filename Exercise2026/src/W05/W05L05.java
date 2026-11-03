@@ -1,61 +1,44 @@
 package W05;
 
-/**
- *
- * @author huiling
- */
 import java.util.Random;
 
+/* Write a simple two players dice game. Each player will take turns to roll a dice. The
+first players that reach more than 100 points win the game. If the player rolls a 6, the
+player will score 6 points and has the chance to roll again */
 public class W05L05 {
     public static void main(String[] args) {
-        Random r = new Random();
-        int point1 = 0, point2 = 0, round = 1;
-        String winner = "";
-        
-        while (point1 <= 100 && point2 <= 100){
-            System.out.println("Round " + round);
-            
-            //player1 roll
-            int play = r.nextInt(0,7);
-            point1 = point1 + play;
-            System.out.println("Player1: " + play);
-            System.out.println("Player1's current points: " + point1);
-            if (play == 6){
-                System.out.println("Roll again!");
-                play = r.nextInt(0,7);
-                point1 = point1 + play;
-                System.out.println("Player1: " + play);
-                System.out.println("Player1's current points: " + point1);
+        Random rand = new Random();
+        int player1 = 0, player2 = 0;
+        int dice = 0;
+        final int winScore = 100;
+        game:
+        while ((player1 <= winScore) && (player2 <= winScore)) {
+            do {
+                System.out.println("Player 1 rolls a dice");
+                dice = rand.nextInt(1, 7);
+                player1 += dice;
+                System.out.println("Player 1 rolled a " + dice + " (Current points: " + player1 + ")");
+                if (player1>winScore) {
+                    System.out.print("Player 1 wins with " + player1 + " points");
+                    break game;
+                }
             }
-            
-            if (point1 > 100){
-                winner = "Player1";
-                break;
+            while(dice==6);
+
+            do {
+                System.out.println("Player 2 rolls a dice");
+                dice = rand.nextInt(1, 7);
+                player2 += dice;
+                System.out.println("Player 2 rolled a " + dice + " (Current points: " + player2 + ")");
+                if (player2>winScore) {
+                    System.out.print("Player 2 wins with " + player2 + " points");
+                    break game;
+                }
             }
-            
-            //player2 roll
-            play = r.nextInt(0,7);
-            point2 = point2 + play;
-            System.out.println("Player2: " + play);
-            System.out.println("Player2's current points: " + point2);
-            if (play == 6){
-                System.out.println("Roll again!");
-                play = r.nextInt(0,7);
-                point2 = point2 + play;
-                System.out.println("Player2: " + play);
-                System.out.println("Player2's current points: " + point2);
-            }
-            
-            if (point2 > 100){
-                winner = "Player2";
-                break;
-            }
-            
-            //newline and round
-            System.out.println("");
-            round++;
+            while (dice==6);
         }
         
-        System.out.println("The winner is " + winner + "!!"); 
+       
     }
+    
 }
