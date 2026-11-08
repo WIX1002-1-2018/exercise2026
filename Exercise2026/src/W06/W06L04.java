@@ -1,6 +1,6 @@
-package W06.mine;
+package W06;
 import java.util.Arrays;
-public class rotateMatrix {
+public class W06L04 {
     public static void main(String[] args) {
         int [][] matrixs = {{1,5,7},
                             {3,6,9},
