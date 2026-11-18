@@ -348,12 +348,12 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #35 Defining and Calling Methods | W07E01 to W07E04 | W07E29 |
-| #36 How Method Calls Work: Stack, Pass-by-Value and Scope | W07E05 to W07E08, W07E19 | W07E30 |
-| #37 Designing with Methods: Abstraction, Overloading and Documentation | W07E09 to W07E12 | W07E31 |
-| #38 Methods and Arrays | W07E13 to W07E18 | W07E32 |
-| #39 Recursion | W07E20 to W07E23 | W07E33 |
-| #40 Modern Java Methods and an AI Check | W07E24, W07E25, W07E27 (AI agent: the bug), W07E28 (the fix) | W07E34 |
+| [#35 Defining and Calling Methods](https://youtu.be/UrvmGgCL56M) | W07E01 to W07E04 | W07E29 |
+| [#36 How Method Calls Work: Stack, Pass-by-Value and Scope](https://youtu.be/vtCjANaakbw) | W07E05 to W07E08, W07E19 | W07E30 |
+| [#37 Designing with Methods: Abstraction, Overloading and Documentation](https://youtu.be/AbEogBxmG-4) | W07E09 to W07E12 | W07E31 |
+| [#38 Methods and Arrays](https://youtu.be/QkHh_NggITY) | W07E13 to W07E18 | W07E32 |
+| [#39 Recursion](https://youtu.be/7SyvkGVE7VI) | W07E20 to W07E23 | W07E33 |
+| [#40 Modern Java Methods and an AI Check](https://youtu.be/1qY0NHWBB-o) | W07E24, W07E25, W07E27 (AI agent: the bug), W07E28 (the fix) | W07E34 |
 
 Summary of Week 09 (W09)
 -------------------------
