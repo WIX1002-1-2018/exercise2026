@@ -231,6 +231,14 @@ The `src/W05` folder contains the repetition examples, part 2 (Chapter 4, Flow o
 - [`W05E25.java`](Exercise2026/src/W05/W05E25.java): Try it answer for video #26 (try it yourself first): Euclid's algorithm for the GCD of 252 and 105, counting the steps.
 - [`W05E26.java`](Exercise2026/src/W05/W05E26.java): Try it answer for video #27 (try it yourself first): the seat chart with the rule (r * s) % 5 == 0; predict the free seats first.
 - [`W05E27.java`](Exercise2026/src/W05/W05E27.java): Try it answer for video #28 (try it yourself first): a right-aligned triangle with one loop and String.repeat.
+- [`W05L01.java`](Exercise2026/src/W05/W05L01.java): Lab 4, question 1: read an integer and display all its factors in increasing order. Answer by [@ThaddeusWanSimon](https://github.com/ThaddeusWanSimon), accepted from [PR #50](https://github.com/WIX1002-1-2018/exercise2026/pull/50).
+- [`W05L02.java`](Exercise2026/src/W05/W05L02.java): Lab 4, question 2: read n and sum the series 1 + (1+2) + (1+2+3) + ... + (1+2+...+n). Answer by [Cheng Xin Jun (@Jun790)](https://github.com/Jun790), accepted from [PR #75](https://github.com/WIX1002-1-2018/exercise2026/pull/75).
+- [`W05L03.java`](Exercise2026/src/W05/W05L03.java): Lab 4, question 3: read scores until a negative score, then the minimum, maximum, average and standard deviation (sample, two decimal places). Answer by [Mah Yun Xian (@yxPYmah)](https://github.com/yxPYmah), accepted from [PR #54](https://github.com/WIX1002-1-2018/exercise2026/pull/54).
+- [`W05L04.java`](Exercise2026/src/W05/W05L04.java): Lab 4, question 4: read the year and the first day of the year (0 for Sunday to 6 for Saturday), then display the calendars for May and August (leap years handled). Answer by [Yeoh Hui Ling (@ling750)](https://github.com/ling750), accepted from [PR #76](https://github.com/WIX1002-1-2018/exercise2026/pull/76).
+- [`W05L05.java`](Exercise2026/src/W05/W05L05.java): Lab 4, question 5: a two-player dice game; the first player above 100 points wins, and a 6 gives another roll. Answer by [Wong Yik Sheng (@tms-tm)](https://github.com/tms-tm), accepted from [PR #52](https://github.com/WIX1002-1-2018/exercise2026/pull/52).
+- [`W05L06.java`](Exercise2026/src/W05/W05L06.java): Lab 4, question 6: a random non-negative integer and its number of digits. Answer by [Faiz (@faizmibadurrahman)](https://github.com/faizmibadurrahman), accepted from [PR #66](https://github.com/WIX1002-1-2018/exercise2026/pull/66).
+- [`W05L07.java`](Exercise2026/src/W05/W05L07.java): Lab 4, question 7: a mortgage amortization table with equal monthly payments (principal, interest, unpaid balance, total interest). Answer by [@shinying7](https://github.com/shinying7), accepted from [PR #77](https://github.com/WIX1002-1-2018/exercise2026/pull/77).
+- [`W05L08.java`](Exercise2026/src/W05/W05L08.java): Lab 4, question 8: the first n prime numbers, with n a random integer from 0 to 100. Answer by [@sokdjdj](https://github.com/sokdjdj), accepted from [PR #70](https://github.com/WIX1002-1-2018/exercise2026/pull/70).
 - [`W05T03.java`](Exercise2026/src/W05/W05T03.java): Tutorial 4, question 3: the first ten values of the Fibonacci sequence (f1 = 1, f2 = 1, fn = fn-1 + fn-2). Answer by [@laihweehwee](https://github.com/laihweehwee), accepted from [PR #48](https://github.com/WIX1002-1-2018/exercise2026/pull/48).
 - [`W05T04.java`](Exercise2026/src/W05/W05T04.java): Tutorial 4, question 4: read a line and display it in reverse order, using `length()`. Answer by [Tan Yong Sheng (@Ystan35)](https://github.com/Ystan35), accepted from [PR #45](https://github.com/WIX1002-1-2018/exercise2026/pull/45).
 
@@ -288,12 +296,12 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #29 Arrays: Declare, Create and Index | W06E01 to W06E05, W06E18 | W06E26 |
-| #30 Processing Arrays: Totals, Largest and Counting | W06E06 to W06E09 | W06E27 |
-| #31 Copying and Comparing Arrays | W06E10 to W06E12 | W06E28 |
-| #32 Searching and Sorting Arrays | W06E13 to W06E17 | W06E29 |
-| #33 2D Arrays: Grids, Totals and Ragged Rows | W06E19 to W06E21 | W06E30 |
-| #34 Array Mistakes and an AI Check | W06E22, W06E24 (AI agent: the bug), W06E25 (the fix) | W06E31 |
+| [#29 Arrays: Declare, Create and Index](https://youtu.be/jbxSpCb_RsY) | W06E01 to W06E05, W06E18 | W06E26 |
+| [#30 Processing Arrays: Totals, Largest and Counting](https://youtu.be/MQPcIOevNY4) | W06E06 to W06E09 | W06E27 |
+| [#31 Copying and Comparing Arrays](https://youtu.be/9Ec5qDVrL6o) | W06E10 to W06E12 | W06E28 |
+| [#32 Searching and Sorting Arrays](https://youtu.be/AD2fNOqj7o0) | W06E13 to W06E17 | W06E29 |
+| [#33 2D Arrays: Grids, Totals and Ragged Rows](https://youtu.be/dicHiSXaR8I) | W06E19 to W06E21 | W06E30 |
+| [#34 Array Mistakes and an AI Check](https://youtu.be/SSm0D5_X_NY) | W06E22, W06E24 (AI agent: the bug), W06E25 (the fix) | W06E31 |
 
 Summary of Week 07 (W07)
 -------------------------
@@ -340,12 +348,12 @@ Pull first (VS Code: Source Control > ... > Pull, or `git pull`), then open the 
 
 | Video | Files used | Try it answer (try first) |
 |---|---|---|
-| #35 Defining and Calling Methods | W07E01 to W07E04 | W07E29 |
-| #36 How Method Calls Work: Stack, Pass-by-Value and Scope | W07E05 to W07E08, W07E19 | W07E30 |
-| #37 Designing with Methods: Abstraction, Overloading and Documentation | W07E09 to W07E12 | W07E31 |
-| #38 Methods and Arrays | W07E13 to W07E18 | W07E32 |
-| #39 Recursion | W07E20 to W07E23 | W07E33 |
-| #40 Modern Java Methods and an AI Check | W07E24, W07E25, W07E27 (AI agent: the bug), W07E28 (the fix) | W07E34 |
+| [#35 Defining and Calling Methods](https://youtu.be/UrvmGgCL56M) | W07E01 to W07E04 | W07E29 |
+| [#36 How Method Calls Work: Stack, Pass-by-Value and Scope](https://youtu.be/vtCjANaakbw) | W07E05 to W07E08, W07E19 | W07E30 |
+| [#37 Designing with Methods: Abstraction, Overloading and Documentation](https://youtu.be/AbEogBxmG-4) | W07E09 to W07E12 | W07E31 |
+| [#38 Methods and Arrays](https://youtu.be/QkHh_NggITY) | W07E13 to W07E18 | W07E32 |
+| [#39 Recursion](https://youtu.be/7SyvkGVE7VI) | W07E20 to W07E23 | W07E33 |
+| [#40 Modern Java Methods and an AI Check](https://youtu.be/1qY0NHWBB-o) | W07E24, W07E25, W07E27 (AI agent: the bug), W07E28 (the fix) | W07E34 |
 
 Summary of Week 09 (W09)
 -------------------------
@@ -619,5 +627,6 @@ Notes
 - These examples are small, self-contained learning exercises intended for beginners.
 - Learn Fork and Pull Request. Try to add a new file and submit pull request.
 - If you help to contribute, your name will be listed as one of the contributors.
+- Lab and tutorial answers are accepted only when the answer is correct AND the file name is correct: `Exercise2026/src/W0N/W0NL##.java` (lab) or `W0NT##.java` (tutorial), with `package W0N;` and the public class named like the file. The first correct answer for each question is accepted, one per student per week; lab answers are accepted after the lab is discussed in class.
 
 Version 1.0
